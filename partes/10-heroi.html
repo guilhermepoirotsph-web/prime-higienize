@@ -1,0 +1,50 @@
+<section class="secao secao--topo secao--cheia secao--escura heroi textura-marca" id="heroi" data-nav="escura" aria-labelledby="heroi-titulo">
+  <!-- escada de z-index (comentada de propósito): 0 luz · 1 partículas 3D · 2 véu · 3 conteúdo -->
+  <div class="heroi__luz" aria-hidden="true"></div>
+  <div class="heroi__particulas" id="heroiParticulas" aria-hidden="true"></div>
+  <div class="heroi__veu" aria-hidden="true"></div>
+
+  <div class="wrap heroi__grade">
+    <div class="heroi__copy">
+      <p class="eyebrow heroi__eyebrow"><span class="pulso"></span> Higienização de estofados e ar-condicionado · em domicílio</p>
+      <h1 class="h1 heroi__titulo" id="heroi-titulo">Seu estofado <span class="acento acento--brilho">limpo de verdade.</span> Sem sair de casa.</h1>
+      <p class="lead heroi__lead">Sofás, colchões, poltronas, cadeiras e ar-condicionado com extração profunda, tratamento anti-ácaro e anti-fungo e proteção contra líquidos. A equipe da Prime vai até você, no Rio Grande do Sul.</p>
+      <div class="btn-grupo heroi__acoes">
+        <a class="btn btn--wa btn--lg" data-wa="Olá! Vim pelo site da Prime Higienize e quero um orçamento gratuito." data-magnetico href="https://wa.me/5551994372227" target="_blank" rel="noopener">
+          <svg class="icone" aria-hidden="true"><use href="#ph-whats"/></svg>Pedir orçamento gratuito
+        </a>
+        <a class="btn btn--vidro btn--lg" href="#antes-depois" data-magnetico="0.2">Ver antes e depois <svg class="icone" aria-hidden="true"><use href="#ph-seta"/></svg></a>
+      </div>
+      <ul class="heroi__provas" aria-label="Diferenciais">
+        <li><svg aria-hidden="true"><use href="#ph-check"/></svg>Orçamento gratuito</li>
+        <li><svg aria-hidden="true"><use href="#ph-casa"/></svg>Atendimento na sua casa</li>
+        <li><svg aria-hidden="true"><use href="#ph-escudo"/></svg>Anti-ácaro e anti-fungo</li>
+        <li><svg aria-hidden="true"><use href="#ph-gota"/></svg>Proteção contra líquidos</li>
+      </ul>
+    </div>
+
+    <div class="heroi__palco">
+      <!-- comparador: arraste para "limpar" o sofá (antes/depois reais do Instagram da Prime) -->
+      <figure class="comparar heroi__comparar" data-comparar data-inicio="42" aria-label="Sofá antes e depois da higienização Prime — arraste para comparar">
+        <img class="comparar__antes" src="assets/img/fotos/sofa-1-antes.webp" alt="Sofá claro antes da higienização, com manchas e sujeira acumulada" width="1000" height="664" decoding="async" fetchpriority="high">
+        <img class="comparar__depois" src="assets/img/fotos/sofa-1-depois.webp" alt="O mesmo sofá depois da higienização Prime, limpo e uniforme" width="1000" height="654" decoding="async" fetchpriority="high">
+        <span class="comparar__rotulo comparar__rotulo--antes">Antes</span>
+        <span class="comparar__rotulo comparar__rotulo--depois">Depois</span>
+        <div class="comparar__linha" aria-hidden="true"></div>
+        <button class="comparar__alca" type="button" aria-label="Arraste para comparar antes e depois" aria-valuemin="0" aria-valuemax="100" aria-valuenow="42" role="slider">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6 4 12l5 6M15 6l5 6-5 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <span class="comparar__dica" aria-hidden="true"><span>Arraste para limpar</span></span>
+        <figcaption class="sr-only">Sofá claro: à esquerda antes da higienização, à direita depois. Foto do Instagram da Prime Higienize.</figcaption>
+      </figure>
+      <!-- selo flutuante: relato real de cliente (destaque "Clientes") -->
+      <blockquote class="heroi__selo" data-tilt="8">
+        <div class="heroi__selo-estrelas" aria-hidden="true"><svg><use href="#ph-estrela"/></svg><svg><use href="#ph-estrela"/></svg><svg><use href="#ph-estrela"/></svg><svg><use href="#ph-estrela"/></svg><svg><use href="#ph-estrela"/></svg></div>
+        <p>“Sofá limpíssimo, zero manchas, tratado anti ácaro e anti fungo, reavivamento da cor e muito cheiroso! Recomendo!”</p>
+        <footer>@pkdocess · cliente, no Instagram</footer>
+      </blockquote>
+    </div>
+  </div>
+
+  <a class="heroi__rolar" href="#faixa" aria-label="Rolar para baixo"><span></span></a>
+</section>

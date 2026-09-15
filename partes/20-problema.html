@@ -1,0 +1,61 @@
+<section class="secao secao--escura problema grade-fina" id="problema" aria-labelledby="problema-titulo">
+  <div class="wrap">
+    <header class="cabecalho-secao">
+      <p class="eyebrow"><span class="pulso"></span> O que ninguém vê</p>
+      <h2 class="h2" id="problema-titulo" data-split="words">O que vive no seu sofá <span class="acento">você respira</span></h2>
+      <p class="lead reveal">Aspirar por cima não alcança o que fica preso nas fibras. Role a página e veja, camada por camada, o que a higienização profissional tira de dentro do estofado.</p>
+    </header>
+
+    <div class="problema__pin" id="problemaPin">
+      <div class="problema__palco" id="problemaPalco">
+        <svg class="problema__sofa" viewBox="0 0 200 200" aria-hidden="true" id="problemaSvg">
+          <defs>
+            <clipPath id="problemaClip"><path d="M44 82h112v28H44zM16 110h168v32H16z"/></clipPath>
+          </defs>
+          <g class="problema__corpo" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M52 82h96a8 8 0 0 1 8 8v20H44V90a8 8 0 0 1 8-8zM100 82v28"/>
+            <path d="M30 110h140v26a6 6 0 0 1-6 6H36a6 6 0 0 1-6-6z"/>
+            <path d="M22 110h18v32H22a6 6 0 0 1-6-6v-20a6 6 0 0 1 6-6zM160 110h18a6 6 0 0 1 6 6v20a6 6 0 0 1-6 6h-18zM42 142v12M158 142v12"/>
+          </g>
+          <path class="problema__arco" d="M32 96A68 68 0 0 1 168 96" fill="none" stroke="#f8c828" stroke-width="2.6" stroke-linecap="round"/>
+          <g class="problema__camadas" clip-path="url(#problemaClip)">
+            <g class="problema__camada" data-camada="1" id="camadaPoeira"></g>
+            <g class="problema__camada" data-camada="2" id="camadaAcaros"></g>
+            <g class="problema__camada" data-camada="3" id="camadaManchas"></g>
+          </g>
+          <!-- bocal de extração: passa sobre o sofá na última etapa -->
+          <g class="problema__bocal" id="problemaBocal" opacity="0">
+            <rect x="-16" y="0" width="32" height="10" rx="3" fill="#f8c828"/>
+            <path d="M-6 10v18a6 6 0 0 0 12 0V10" fill="none" stroke="#f8c828" stroke-width="2.6"/>
+            <rect x="-22" y="-3" width="44" height="3" rx="1.5" fill="#fff" opacity=".9"/>
+          </g>
+        </svg>
+        <div class="problema__contador" aria-hidden="true"><span id="problemaNum">01</span><small>/04</small></div>
+      </div>
+
+      <ol class="problema__etapas" id="problemaEtapas">
+        <li class="problema__etapa is-ativa" data-etapa="1">
+          <span class="problema__indice">01</span>
+          <h3 class="h3">Poeira, pelos e resíduos</h3>
+          <p>Ficam presos nas fibras com o uso diário. Aspirador comum passa por cima; a extração profunda puxa de dentro.</p>
+        </li>
+        <li class="problema__etapa" data-etapa="2">
+          <span class="problema__indice">02</span>
+          <h3 class="h3">Ácaros, fungos e bactérias</h3>
+          <p>Invisíveis, mas presentes. Estão ligados ao agravamento de rinite, sinusite, alergias respiratórias e crises de asma.</p>
+        </li>
+        <li class="problema__etapa" data-etapa="3">
+          <span class="problema__indice">03</span>
+          <h3 class="h3">Manchas e odores</h3>
+          <p>Suor, comida, café, vinho, urina de pet. Quanto mais tempo ficam, mais difícil (e mais caro) tirar.</p>
+        </li>
+        <li class="problema__etapa" data-etapa="4">
+          <span class="problema__indice">04</span>
+          <h3 class="h3">Extração profunda Prime</h3>
+          <p>Produto certo, escovação e extração de alta potência, com tratamento anti-ácaro e anti-fungo. Seu estofado limpo de dentro para fora.</p>
+          <a class="btn btn--ouro btn--sm mt-2" data-wa="Olá! Quero saber quanto custa a higienização do meu estofado." href="https://wa.me/5551994372227" target="_blank" rel="noopener">Quero isso no meu sofá <svg class="icone" aria-hidden="true"><use href="#ph-seta"/></svg></a>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>

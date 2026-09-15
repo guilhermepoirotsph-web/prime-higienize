@@ -1,0 +1,8 @@
+/* ===== 15 · FAIXA (letreiro) ===== */
+/* a inclinação fica num filho dentro de overflow:hidden — a caixa escalada não pode alargar o documento (overflowX) */
+.faixa{position:relative;z-index:4;overflow:hidden;padding-block:.9rem;margin-block:-1rem;background:transparent}
+.faixa__marquee{-webkit-mask-image:none;mask-image:none;padding-block:1.05rem;background:var(--ouro);border-block:1px solid rgba(0,0,0,.18);transform:rotate(-1.2deg) scale(1.03);transform-origin:center}
+.faixa__trilho{gap:1.6rem;font-family:var(--fonte-display);font-weight:800;font-size:clamp(.82rem,1.3vw,1.05rem);letter-spacing:.18em;text-transform:uppercase;color:var(--preto-950);padding-inline:.8rem}
+.faixa__trilho i{font-style:normal;font-size:.8em;opacity:.7}
+html:not(.anim) .faixa__trilho{animation:faixa-rolar 40s linear infinite}
+@keyframes faixa-rolar{to{transform:translateX(-50%)}}

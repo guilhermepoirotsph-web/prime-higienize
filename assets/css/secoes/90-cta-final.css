@@ -1,0 +1,10 @@
+/* ===== 90 · CTA FINAL ===== */
+.cta-final{background:var(--preto-950);color:#fff;overflow:hidden;padding-block:clamp(5rem,12vw,9rem)}
+.cta-final .eyebrow{color:var(--ouro)}
+.cta-final .lead{color:#c9c9c9}
+.cta-final__luz{position:absolute;inset:0;pointer-events:none;background:radial-gradient(50% 50% at 50% 60%,rgba(248,200,40,.22),transparent 70%)}
+.cta-final__miolo{position:relative}
+.cta-final__sofa{width:96px;height:96px;margin:0 auto 1.2rem;color:#fff;fill:none;stroke:currentColor}
+.cta-final__sofa .arco{stroke:var(--ouro)}
+.cta-final__titulo{margin-top:.9rem;font-size:clamp(2rem,4.6vw,3.6rem)}
+.cta-final__nota{margin-top:1.6rem;font-family:var(--fonte-display);font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:#9a9a9a}

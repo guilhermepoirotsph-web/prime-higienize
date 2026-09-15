@@ -1,0 +1,33 @@
+/* ===== 70 · CLIENTES ===== */
+.clientes{overflow:hidden;padding-bottom:0}
+.clientes__topo{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(2rem,5vw,4rem);align-items:center;margin-bottom:clamp(2rem,4vw,3.5rem)}
+.clientes__topo .cabecalho-secao{margin-bottom:0}
+.clientes__destaque{background:#efe7d3;border-color:rgba(248,200,40,.5);padding:1.4rem 1.4rem 1.1rem;max-width:460px;justify-self:end;width:100%}
+.clientes__balao-grupo{display:grid;gap:.5rem}
+.clientes__balao{position:relative;align-self:start;background:#fff;border-radius:12px 12px 12px 4px;padding:.6rem 3.4rem .6rem .8rem;font-size:.95rem;line-height:1.45;box-shadow:0 2px 6px -3px rgba(0,0,0,.3);max-width:92%}
+.clientes__balao time{position:absolute;right:.6rem;bottom:.4rem;font-size:.66rem;color:#8a8a8a}
+.clientes__fonte{margin-top:.9rem;font-family:var(--fonte-display);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ouro-texto)}
+
+/* vitrine horizontal */
+.clientes__vitrine{position:relative;padding-block:0 clamp(4rem,8vw,6rem)}
+.clientes__trilho{display:flex;gap:1.2rem;padding-inline:max(4vw,calc((100vw - var(--wrap)) / 2));width:max-content}
+.clientes__card{flex:none;width:clamp(230px,22vw,280px);margin:0}
+.clientes__card .moldura{box-shadow:var(--sombra-suave);border:1px solid var(--linha)}
+.clientes__card figcaption{margin-top:.8rem;font-size:.9rem;line-height:1.5;color:var(--texto-suave)}
+.clientes__card q{quotes:"“" "”"}
+.clientes__card q::before,.clientes__card q::after{color:var(--ouro-escuro)}
+.clientes__card figcaption span{display:block;margin-top:.3rem;font-family:var(--fonte-display);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ouro-texto)}
+.clientes__card--cta{display:grid}
+.clientes__cta-miolo{aspect-ratio:9/16;border-radius:var(--raio);background:var(--preto-950);color:#fff;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:1.2rem;text-align:center;padding:1.5rem;border:1px solid rgba(248,200,40,.35)}
+.clientes__cta-miolo .h3{text-transform:none;letter-spacing:0;font-size:1.2rem;line-height:1.3}
+.clientes__cta-sofa{width:88px;height:88px;color:var(--ouro);fill:none;stroke:currentColor}
+.clientes__dica{text-align:center;font-family:var(--fonte-display);font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted-texto);margin:-3rem 0 2.5rem}
+
+@media (max-width:1024px){.clientes__topo{grid-template-columns:1fr}.clientes__destaque{justify-self:start}}
+/* celular: rolagem nativa com snap (sem pin) */
+@media (max-width:900px){
+  .clientes__vitrine{overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .clientes__vitrine::-webkit-scrollbar{display:none}
+  .clientes__trilho{padding-inline:4vw}
+  .clientes__card{scroll-snap-align:start;width:min(72vw,280px)}
+}

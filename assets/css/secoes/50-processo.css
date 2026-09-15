@@ -1,0 +1,13 @@
+/* ===== 50 · PROCESSO ===== */
+.processo__passos{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:1.4rem;padding-top:1.2rem}
+.processo__linha{position:absolute;left:0;right:0;top:calc(1.2rem + 26px);width:100%;height:40px;pointer-events:none;opacity:.9}
+.processo__passo{position:relative;padding:1.5rem 1.4rem 1.6rem;border-radius:var(--raio);background:rgba(255,255,255,.035);border:1px solid rgba(248,200,40,.18);display:flex;flex-direction:column;gap:.7rem}
+.processo__num{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;font-family:var(--fonte-display);font-weight:800;font-size:1.2rem;background:var(--ouro);color:var(--preto-950);box-shadow:0 0 0 8px var(--preto-900),0 0 0 9px rgba(248,200,40,.4)}
+.processo__passo .h3{text-transform:none;letter-spacing:0;font-size:1.05rem;color:#fff;margin-top:.4rem}
+.processo__passo p{color:#bdbdbd;font-size:.94rem;line-height:1.6}
+.processo__passo .btn{margin-top:auto;align-self:flex-start}
+@media (max-width:1024px){
+  .processo__passos{grid-template-columns:repeat(2,1fr)}
+  .processo__linha{display:none}
+}
+@media (max-width:560px){.processo__passos{grid-template-columns:1fr}}
