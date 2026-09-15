@@ -1,6 +1,6 @@
 # RETOMAR — Prime Higienizações (landing)
 
-Status: CONCLUÍDO (15/09/2026) — site pronto e conferido; publicação aguarda OK do Guilherme
+Status: EM ANDAMENTO — site no GitHub (guilhermepoirotsph-web/prime-higienize, privado, main 82f9665); pacote _site + publicar.mjs prontos para Cloudflare Pages
 Atualizado: 2026-09-14 (sessão 7b4c5db8)
 
 ## Pedido original do Guilherme
@@ -26,4 +26,4 @@ vídeos e atendimentos vêm todos do Instagram. Se a sessão cair, RETOMAR sozin
 6. [ ] Registrar no Segundo Cérebro (nota do projeto + diário)
 
 ## Próximo passo
-Passos 1-4 FEITOS: 12 partes montadas, sonda interativa verde (preloader, partículas, comparador, modal IG, FAQ, chips, menu, ?anim=0), capturas desktop+mobile ok. Últimos ajustes: nav em 390/320 e cards nowrap. Falta: passo 5 (git init + commit local; push só com OK do Guilherme) e passo 6 (cofre).
+Passos 1-5 FEITOS (repo criado e push feito em 15/09). Passo atual: auditoria multi-agente do pacote (workflow wf_66d887aa-daf, script em ~/.claude/projects/.../workflows/scripts/auditoria-pacote-prime-wf_66d887aa-daf.js; se caiu, relançar com resumeFromRunId ou auditar à mão: CSP do _headers, pacote, LEIA-ME x doc do Cloudflare, resíduos do Odonto). Depois: aplicar achados, node publicar.mjs, commit + push, registrar no cofre, apagar cron.
