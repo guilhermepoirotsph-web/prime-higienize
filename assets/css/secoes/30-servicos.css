@@ -1,0 +1,12 @@
+/* ===== 30 · SERVIÇOS ===== */
+.servicos__grade{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem}
+.servicos__card{display:flex;flex-direction:column;gap:.9rem}
+.servicos__card .h3{margin-top:.4rem}
+.servicos__card p{color:var(--texto-suave);font-size:.95rem}
+.servicos__card .lista-check{font-size:.9rem;margin-top:.2rem}
+.servicos__card .btn{margin-top:auto;align-self:flex-start;padding-left:0}
+.servicos__card .btn--fantasma::after{left:0}
+.servicos__rodape{margin-top:clamp(2rem,4vw,3rem);padding:1.4rem 1.6rem;border-radius:var(--raio);background:var(--preto-950);color:#e6e6e6;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem 2rem}
+.servicos__rodape b{color:var(--ouro)}
+@media (max-width:1024px){.servicos__grade{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:640px){.servicos__grade{grid-template-columns:1fr}.servicos__rodape{justify-content:center;text-align:center}}

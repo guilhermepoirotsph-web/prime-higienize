@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<!-- GERADO por montar.mjs a partir de partes/ — não edite à mão -->
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Prime Higienize · Higienização de Estofados e Ar-condicionado no RS</title>
+<meta name="description" content="Prime Higienize: higienização profissional de sofás, colchões, poltronas, cadeiras e ar-condicionado em domicílio no Rio Grande do Sul. Impermeabilização e tratamento anti-ácaro. Orçamento gratuito pelo WhatsApp.">
+<!-- PRÉVIA: sem domínio definitivo ainda. Ao publicar no domínio: tirar o noindex, ligar canonical/og:url e robots. -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0f0f10">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Prime Higienize">
+<meta property="og:title" content="Prime Higienize · Seu estofado limpo de verdade">
+<meta property="og:description" content="Higienização profissional de sofás, colchões, poltronas e ar-condicionado em domicílio. Adeus ácaros, manchas e odores. Orçamento gratuito pelo WhatsApp.">
+<meta property="og:image" content="assets/img/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Prime Higienize · Seu estofado limpo de verdade">
+<meta name="twitter:description" content="Higienização de estofados e ar-condicionado em domicílio no RS. Orçamento gratuito pelo WhatsApp.">
+<meta name="twitter:image" content="assets/img/og.jpg">
+
+<link rel="icon" type="image/png" sizes="64x64" href="assets/img/marca/favicon-64.png">
+<link rel="icon" type="image/png" sizes="512x512" href="assets/img/marca/favicon-512.png">
+<link rel="apple-touch-icon" href="assets/img/marca/apple-touch-icon.png">
+
+<!-- fontes (único recurso externo além dos embeds do Instagram, carregados só ao clicar) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Manrope:wght@400;500;600;700&family=Caveat:wght@600&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Manrope:wght@400;500;600;700&family=Caveat:wght@600&display=swap"></noscript>
+
+<!-- dados estruturados: só o que está em docs/DADOS.md (sem endereço, sem horário) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Prime Higienize",
+  "alternateName": "Prime Higienize | Higienização de Estofados e Ar-condicionados",
+  "description": "Higienização profissional de sofás, colchões, poltronas, cadeiras e ar-condicionado em domicílio no Rio Grande do Sul. Impermeabilização (proteção contra líquidos) e tratamento anti-ácaro e anti-fungo. Orçamento gratuito.",
+  "telephone": "+5551994372227",
+  "image": "assets/img/og.jpg",
+  "logo": "assets/img/marca/logo-cor-700.png",
+  "areaServed": { "@type": "State", "name": "Rio Grande do Sul" },
+  "sameAs": ["https://www.instagram.com/prime.higienize"],
+  "makesOffer": [
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Higienização de sofás" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Higienização de colchões" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Higienização de poltronas e cadeiras" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Higienização de ar-condicionado" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Impermeabilização de estofados" } }
+  ]
+}
+</script>
+
+<!-- Three.js local (a seção do herói importa 'three' pelo importmap) -->
+<script type="importmap">{"imports":{"three":"./assets/js/vendor/three.module.min.js"}}</script>
+
+<!-- marca cedo .js e .anim; se o núcleo não vier em 4 s, libera tudo e deixa a nav sólida -->
+<script>(function(d){d.classList.add('js');var r=/[?&]anim=0(&|$)/.test(location.search);if(!r)d.classList.add('anim');setTimeout(function(){if(!window.PH){d.classList.remove('anim');var n=document.getElementById('nav');if(n){n.classList.add('is-solida');n.style.opacity='1';n.style.transform='none'}}},4000)})(document.documentElement);</script>
+
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/secoes/10-heroi.css">
+<link rel="stylesheet" href="assets/css/secoes/15-faixa.css">
+<link rel="stylesheet" href="assets/css/secoes/20-problema.css">
+<link rel="stylesheet" href="assets/css/secoes/30-servicos.css">
+<link rel="stylesheet" href="assets/css/secoes/40-antes-depois.css">
+<link rel="stylesheet" href="assets/css/secoes/50-processo.css">
+<link rel="stylesheet" href="assets/css/secoes/60-videos.css">
+<link rel="stylesheet" href="assets/css/secoes/70-clientes.css">
+<link rel="stylesheet" href="assets/css/secoes/75-protecao.css">
+<link rel="stylesheet" href="assets/css/secoes/80-faq.css">
+<link rel="stylesheet" href="assets/css/secoes/85-atendimento.css">
+<link rel="stylesheet" href="assets/css/secoes/90-cta-final.css">
+<!-- sem JS: nada escondido, nav sólida em creme com logo escuro -->
+<noscript><style>.preloader,.cursor,.cursor__ponto,.progresso{display:none !important}.reveal,[data-reveal],[data-split],.nav{opacity:1 !important;transform:none !important}.nav{background:var(--creme);color:var(--texto);border-bottom-color:var(--linha-ouro)}.nav__logo--escuro{opacity:1}.nav__logo--claro{opacity:0}</style></noscript>
+</head>
+<body>
+
+<a class="pular" href="#conteudo">Ir para o conteúdo</a>
+
+<!-- ============ SÍMBOLOS SVG (usar com <svg><use href="#id"/></svg>) ============ -->
+<svg aria-hidden="true" focusable="false" style="position:absolute;width:0;height:0;overflow:hidden">
+  <!-- o sofá do logo: arco dourado + sofá em linha (traço em currentColor) -->
+  <symbol id="ph-sofa" viewBox="0 0 200 200" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" style="stroke-width:var(--traco,5)">
+    <path class="arco" d="M32 96A68 68 0 0 1 168 96"/>
+    <path class="corpo" d="M52 82h96a8 8 0 0 1 8 8v20H44V90a8 8 0 0 1 8-8zM100 82v28"/>
+    <path class="corpo" d="M30 110h140v26a6 6 0 0 1-6 6H36a6 6 0 0 1-6-6z"/>
+    <path class="corpo" d="M22 110h18v32H22a6 6 0 0 1-6-6v-20a6 6 0 0 1 6-6zM160 110h18a6 6 0 0 1 6 6v20a6 6 0 0 1-6 6h-18zM42 142v12M158 142v12"/>
+  </symbol>
+  <symbol id="ph-whats" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m0 1.67c2.2 0 4.27.86 5.83 2.42a8.2 8.2 0 0 1 2.41 5.82c0 4.54-3.7 8.24-8.25 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.26-8.24m-2.4 4.1c-.19 0-.5.07-.76.35-.26.28-1 .98-1 2.39s1.03 2.77 1.17 2.96c.14.19 2 3.05 4.85 4.28.68.29 1.2.46 1.61.6.68.21 1.3.18 1.79.11.55-.08 1.68-.69 1.92-1.35s.24-1.23.17-1.35c-.07-.12-.26-.19-.54-.33-.28-.14-1.68-.83-1.94-.92-.26-.1-.45-.14-.64.14-.19.28-.73.92-.9 1.11-.16.19-.33.21-.61.07-.28-.14-1.2-.44-2.28-1.41-.84-.75-1.41-1.68-1.58-1.96-.16-.28-.02-.43.13-.57.13-.13.28-.33.42-.5.14-.16.19-.28.28-.47.09-.19.05-.35-.02-.49-.07-.14-.63-1.55-.87-2.12-.22-.53-.45-.46-.62-.47z"/>
+  </symbol>
+  <symbol id="ph-insta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="ph-pino" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-6.5-6.2-6.5-11a6.5 6.5 0 0 1 13 0c0 4.8-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></symbol>
+  <symbol id="ph-seta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+  <symbol id="ph-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></symbol>
+  <symbol id="ph-play" viewBox="0 0 24 24"><path fill="currentColor" d="M8 5.5v13l11-6.5z"/></symbol>
+  <symbol id="ph-estrela" viewBox="0 0 24 24"><path fill="currentColor" d="m12 2.5 2.9 6.2 6.8.8-5 4.6 1.3 6.7L12 17.5l-6 3.3 1.3-6.7-5-4.6 6.8-.8z"/></symbol>
+  <symbol id="ph-casa" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 11 12 4l8.5 7"/><path d="M6 9.8V20h12V9.8"/><path d="M10 20v-5h4v5"/></symbol>
+  <symbol id="ph-gota" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5s6 6.4 6 10.6a6 6 0 0 1-12 0C6 9.9 12 3.5 12 3.5z"/></symbol>
+  <symbol id="ph-escudo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 5 6v5.5c0 4.3 3 8 7 9.5 4-1.5 7-5.2 7-9.5V6z"/><path d="m9.2 12 2 2 3.8-4"/></symbol>
+</svg>
+
+<!-- ============ PRELOADER (só com html.anim; o núcleo anima e remove) ============ -->
+<div class="preloader" id="preloader" aria-hidden="true">
+  <div class="preloader__cortina"><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="preloader__miolo">
+    <svg class="preloader__sofa" viewBox="0 0 200 200" aria-hidden="true">
+      <path class="arco" d="M32 96A68 68 0 0 1 168 96"/>
+      <path class="corpo" d="M52 82h96a8 8 0 0 1 8 8v20H44V90a8 8 0 0 1 8-8z"/>
+      <path class="corpo" d="M30 110h140v26a6 6 0 0 1-6 6H36a6 6 0 0 1-6-6z"/>
+      <path class="corpo" d="M22 110h18v32H22a6 6 0 0 1-6-6v-20a6 6 0 0 1 6-6zM160 110h18a6 6 0 0 1 6 6v20a6 6 0 0 1-6 6h-18z"/>
+    </svg>
+    <div class="preloader__num"><span id="preNum">00</span><small>%</small></div>
+    <div class="preloader__barra"><i></i></div>
+  </div>
+</div>
+
+<!-- ============ OVERLAYS ============ -->
+<div class="progresso" aria-hidden="true"><i id="progressoBarra"></i></div>
+<div class="cursor is-fora" id="cursor" aria-hidden="true"></div>
+<div class="cursor__ponto is-fora" id="cursorPonto" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <a class="nav__marca" href="#conteudo" aria-label="Prime Higienize — início" style="--logo-prop:4.41">
+    <img class="nav__logo--claro" src="assets/img/marca/logo-branco-h.webp" alt="" width="865" height="196" decoding="async">
+    <img class="nav__logo--escuro" src="assets/img/marca/logo-cor-h.webp" alt="Prime Higienize" width="865" height="196" decoding="async">
+  </a>
+  <nav class="nav__links" aria-label="Navegação principal">
+    <a href="#servicos">Serviços</a>
+    <a href="#antes-depois">Antes e depois</a>
+    <a href="#como-funciona">Como funciona</a>
+    <a href="#videos">Vídeos</a>
+    <a href="#clientes">Clientes</a>
+    <a href="#faq">Dúvidas</a>
+  </nav>
+  <div class="nav__acoes">
+    <a class="btn btn--wa btn--sm" data-wa="Olá! Vim pelo site da Prime Higienize e quero um orçamento." data-magnetico href="https://wa.me/5551994372227?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Prime%20Higienize%20e%20quero%20um%20or%C3%A7amento." target="_blank" rel="noopener">
+      <svg class="icone" aria-hidden="true"><use href="#ph-whats"/></svg><span>Orçamento</span>
+    </a>
+    <button class="burger" id="burger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><i></i><i></i></button>
+  </div>
+</header>
+
+<!-- ============ MENU MOBILE ============ -->
+<div class="menu" id="menu" aria-hidden="true">
+  <nav class="menu__lista" aria-label="Menu">
+    <a href="#conteudo"><span><small>01</small>Início</span></a>
+    <a href="#servicos"><span><small>02</small>Serviços</span></a>
+    <a href="#antes-depois"><span><small>03</small>Antes e depois</span></a>
+    <a href="#como-funciona"><span><small>04</small>Como funciona</span></a>
+    <a href="#videos"><span><small>05</small>Vídeos</span></a>
+    <a href="#clientes"><span><small>06</small>Clientes</span></a>
+    <a href="#faq"><span><small>07</small>Dúvidas</span></a>
+  </nav>
+  <div class="menu__rodape">
+    <a class="btn btn--wa menu__cta" data-wa="Olá! Vim pelo site da Prime Higienize e quero um orçamento." href="https://wa.me/5551994372227" target="_blank" rel="noopener">
+      <svg class="icone" aria-hidden="true"><use href="#ph-whats"/></svg>Orçamento gratuito no WhatsApp
+    </a>
+    <a href="https://www.instagram.com/prime.higienize" target="_blank" rel="noopener"><svg class="icone" aria-hidden="true"><use href="#ph-insta"/></svg>@prime.higienize</a>
+    <span><svg class="icone" aria-hidden="true"><use href="#ph-pino"/></svg>Atendimento em domicílio · Rio Grande do Sul</span>
+  </div>
+</div>
+
+<!-- a PRIMEIRA seção é o herói: único <h1 class="h1"> da página e data-nav="escura|clara" -->
+<main id="conteudo">
+<!-- ===== 10-heroi ===== -->
+<section class="secao secao--topo secao--cheia secao--escura heroi textura-marca" id="heroi" data-nav="escura" aria-labelledby="heroi-titulo">
+  <!-- escada de z-index (comentada de propósito): 0 luz · 1 partículas 3D · 2 véu · 3 conteúdo -->
+  <div class="heroi__luz" aria-hidden="true"></div>
+  <div class="heroi__particulas" id="heroiParticulas" aria-hidden="true"></div>
+  <div class="heroi__veu" aria-hidden="true"></div>
+
+  <div class="wrap heroi__grade">
+    <div class="heroi__copy">
+      <p class="eyebrow heroi__eyebrow"><span class="pulso"></span> Higienização de estofados e ar-condicionado · em domicílio</p>
+      <h1 class="h1 heroi__titulo" id="heroi-titulo">Seu estofado <span class="acento acento--brilho">limpo de verdade.</span> Sem sair de casa.</h1>
+      <p class="lead heroi__lead">Sofás, colchões, poltronas, cadeiras e ar-condicionado com extração profunda, tratamento anti-ácaro e anti-fungo e proteção contra líquidos. A equipe da Prime vai até você, no Rio Grande do Sul.</p>
+      <div class="btn-grupo heroi__acoes">
+        <a class="btn btn--wa btn--lg" data-wa="Olá! Vim pelo site da Prime Higienize e quero um orçamento gratuito." data-magnetico href="https://wa.me/5551994372227" target="_blank" rel="noopener">
+          <svg class="icone" aria-hidden="true"><use href="#ph-whats"/></svg>Pedir orçamento gratuito
+        </a>
+        <a class="btn btn--vidro btn--lg" href="#antes-depois" data-magnetico="0.2">Ver antes e depois <svg class="icone" aria-hidden="true"><use href="#ph-seta"/></svg></a>
+      </div>
+      <ul class="heroi__provas" aria-label="Diferenciais">
+        <li><svg aria-hidden="true"><use href="#ph-check"/></svg>Orçamento gratuito</li>
+        <li><svg aria-hidden="true"><use href="#ph-casa"/></svg>Atendimento na sua casa</li>
+        <li><svg aria-hidden="true"><use href="#ph-escudo"/></svg>Anti-ácaro e anti-fungo</li>
+        <li><svg aria-hidden="true"><use href="#ph-gota"/></svg>Proteção contra líquidos</li>
+      </ul>
+    </div>
+
+    <div class="heroi__palco">
+      <!-- comparador: arraste para "limpar" o sofá (antes/depois reais do Instagram da Prime) -->
+      <figure class="comparar heroi__comparar" data-comparar data-inicio="42" aria-label="Sofá antes e depois da higienização Prime — arraste para comparar">
+        <img class="comparar__antes" src="assets/img/fotos/sofa-1-antes.webp" alt="Sofá claro antes da higienização, com manchas e sujeira acumulada" width="1000" height="664" decoding="async" fetchpriority="high">
+        <img class="comparar__depois" src="assets/img/fotos/sofa-1-depois.webp" alt="O mesmo sofá depois da higienização Prime, limpo e uniforme" width="1000" height="654" decoding="async" fetchpriority="high">
+        <span class="comparar__rotulo comparar__rotulo--antes">Antes</span>
+        <span class="comparar__rotulo comparar__rotulo--depois">Depois</span>
+        <div class="comparar__linha" aria-hidden="true"></div>
+        <button class="comparar__alca" type="button" aria-label="Arraste para comparar antes e depois" aria-valuemin="0" aria-valuemax="100" aria-valuenow="42" role="slider">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6 4 12l5 6M15 6l5 6-5 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <span class="comparar__dica" aria-hidden="true"><span>Arraste para limpar</span></span>
+        <figcaption class="sr-only">Sofá claro: à esquerda antes da higienização, à direita depois. Foto do Instagram da Prime Higienize.</figcaption>
+      </figure>
+      <!-- selo flutuante: relato real de cliente (destaque "Clientes") -->
+      <blockquote class="heroi__selo" data-tilt="8">
+        <div class="heroi__selo-estrelas" aria-hidden="true"><svg><use href="#ph-estrela"/></svg><svg><use href="#ph-estrela"/></svg><svg><use href="#ph-estrela"/></svg><svg><use href="#ph-estrela"/></svg><svg><use href="#ph-estrela"/></svg></div>
+        <p>“Sofá limpíssimo, zero manchas, tratado anti ácaro e anti fungo, reavivamento da cor e muito cheiroso! Recomendo!”</p>
+        <footer>@pkdocess · cliente, no Instagram</footer>
+      </blockquote>
+    </div>
+  </div>
+
+  <a class="heroi__rolar" href="#faixa" aria-label="Rolar para baixo"><span></span></a>
+</section>
+
+<!-- ===== 15-faixa ===== -->
+<section class="faixa secao--ouro" id="faixa" aria-label="O que a Prime higieniza">
+  <div class="marquee faixa__marquee">
+    <div class="marquee__trilho faixa__trilho" id="faixaTrilho">
+      <span>Sofás</span><i>✦</i><span>Colchões</span><i>✦</i><span>Poltronas</span><i>✦</i><span>Cadeiras</span><i>✦</i><span>Ar-condicionado</span><i>✦</i><span>Impermeabilização</span><i>✦</i><span>Anti-ácaro e anti-fungo</span><i>✦</i><span>Atendimento em domicílio</span><i>✦</i>
+      <span aria-hidden="true">Sofás</span><i aria-hidden="true">✦</i><span aria-hidden="true">Colchões</span><i aria-hidden="true">✦</i><span aria-hidden="true">Poltronas</span><i aria-hidden="true">✦</i><span aria-hidden="true">Cadeiras</span><i aria-hidden="true">✦</i><span aria-hidden="true">Ar-condicionado</span><i aria-hidden="true">✦</i><span aria-hidden="true">Impermeabilização</span><i aria-hidden="true">✦</i><span aria-hidden="true">Anti-ácaro e anti-fungo</span><i aria-hidden="true">✦</i><span aria-hidden="true">Atendimento em domicílio</span><i aria-hidden="true">✦</i>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 20-problema ===== -->
+<section class="secao secao--escura problema grade-fina" id="problema" aria-labelledby="problema-titulo">
+  <div class="wrap">
+    <header class="cabecalho-secao">
+      <p class="eyebrow"><span class="pulso"></span> O que ninguém vê</p>
+      <h2 class="h2" id="problema-titulo" data-split="words">O que vive no seu sofá <span class="acento">você respira</span></h2>
+      <p class="lead reveal">Aspirar por cima não alcança o que fica preso nas fibras. Role a página e veja, camada por camada, o que a higienização profissional tira de dentro do estofado.</p>
+    </header>
+
+    <div class="problema__pin" id="problemaPin">
+      <div class="problema__palco" id="problemaPalco">
+        <svg class="problema__sofa" viewBox="0 0 200 200" aria-hidden="true" id="problemaSvg">
+          <defs>
+            <clipPath id="problemaClip"><path d="M44 82h112v28H44zM16 110h168v32H16z"/></clipPath>
+          </defs>
+          <g class="problema__corpo" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M52 82h96a8 8 0 0 1 8 8v20H44V90a8 8 0 0 1 8-8zM100 82v28"/>
+            <path d="M30 110h140v26a6 6 0 0 1-6 6H36a6 6 0 0 1-6-6z"/>
+            <path d="M22 110h18v32H22a6 6 0 0 1-6-6v-20a6 6 0 0 1 6-6zM160 110h18a6 6 0 0 1 6 6v20a6 6 0 0 1-6 6h-18zM42 142v12M158 142v12"/>
+          </g>
+          <path class="problema__arco" d="M32 96A68 68 0 0 1 168 96" fill="none" stroke="#f8c828" stroke-width="2.6" stroke-linecap="round"/>
+          <g class="problema__camadas" clip-path="url(#problemaClip)">
+            <g class="problema__camada" data-camada="1" id="camadaPoeira"></g>
+            <g class="problema__camada" data-camada="2" id="camadaAcaros"></g>
+            <g class="problema__camada" data-camada="3" id="camadaManchas"></g>
+          </g>
+          <!-- bocal de extração: passa sobre o sofá na última etapa -->
+          <g class="problema__bocal" id="problemaBocal" opacity="0">
+            <rect x="-16" y="0" width="32" height="10" rx="3" fill="#f8c828"/>
+            <path d="M-6 10v18a6 6 0 0 0 12 0V10" fill="none" stroke="#f8c828" stroke-width="2.6"/>
+            <rect x="-22" y="-3" width="44" height="3" rx="1.5" fill="#fff" opacity=".9"/>
+          </g>
+        </svg>
+        <div class="problema__contador" aria-hidden="true"><span id="problemaNum">01</span><small>/04</small></div>
+      </div>
+
+      <ol class="problema__etapas" id="problemaEtapas">
+        <li class="problema__etapa is-ativa" data-etapa="1">
+          <span class="problema__indice">01</span>
+          <h3 class="h3">Poeira, pelos e resíduos</h3>
+          <p>Ficam presos nas fibras com o uso diário. Aspirador comum passa por cima; a extração profunda puxa de dentro.</p>
+        </li>
+        <li class="problema__etapa" data-etapa="2">
+          <span class="problema__indice">02</span>
+          <h3 class="h3">Ácaros, fungos e bactérias</h3>
+          <p>Invisíveis, mas presentes. Estão ligados ao agravamento de rinite, sinusite, alergias respiratórias e crises de asma.</p>
+        </li>
+        <li class="problema__etapa" data-etapa="3">
+          <span class="problema__indice">03</span>
+          <h3 class="h3">Manchas e odores</h3>
+          <p>Suor, comida, café, vinho, urina de pet. Quanto mais tempo ficam, mais difícil (e mais caro) tirar.</p>
+        </li>
+        <li class="problema__etapa" data-etapa="4">
+          <span class="problema__indice">04</span>
+          <h3 class="h3">Extração profunda Prime</h3>
+          <p>Produto certo, escovação e extração de alta potência, com tratamento anti-ácaro e anti-fungo. Seu estofado limpo de dentro para fora.</p>
+          <a class="btn btn--ouro btn--sm mt-2" data-wa="Olá! Quero saber quanto custa a higienização do meu estofado." href="https://wa.me/5551994372227" target="_blank" rel="noopener">Quero isso no meu sofá <svg class="icone" aria-hidden="true"><use href="#ph-seta"/></svg></a>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 30-servicos ===== -->
+<section class="secao secao--clara servicos" id="servicos" aria-labelledby="servicos-titulo">
+  <div class="wrap">
+    <header class="cabecalho-secao cabecalho-secao--centro">
+      <p class="eyebrow"><span class="pulso"></span> Serviços</p>
+      <h2 class="h2" id="servicos-titulo" data-split="words">Tudo que a Prime <span class="acento">higieniza</span> na sua casa</h2>
+      <p class="lead reveal">Cada estofado pede um cuidado. A equipe vai até você com o equipamento de extração e os produtos certos para o tecido, e o orçamento é gratuito.</p>
+    </header>
+
+    <div class="servicos__grade">
+      <article class="cartao servicos__card" data-tilt="8" data-reveal="up">
+        <div class="icone-circulo icone-circulo--ouro"><svg viewBox="0 0 200 200" style="--traco:9"><use href="#ph-sofa"/></svg></div>
+        <h3 class="h3">Sofás</h3>
+        <p>O móvel mais usado da casa. Higienização profunda que tira poeira, pelos de pet, manchas e odores das fibras e devolve a cor e a maciez.</p>
+        <ul class="lista-check">
+          <li>Sofás claros, coloridos e de canto</li>
+          <li>Extração de alta potência</li>
+          <li>Reavivamento da cor e cheiro de limpo</li>
+        </ul>
+        <a class="btn btn--fantasma" data-wa="Olá! Quero um orçamento para higienizar meu sofá." href="https://wa.me/5551994372227" target="_blank" rel="noopener">Orçamento para sofá <svg class="icone" aria-hidden="true"><use href="#ph-seta"/></svg></a>
+      </article>
+
+      <article class="cartao servicos__card" data-tilt="8" data-reveal="up" data-reveal-atraso="0.08">
+        <div class="icone-circulo icone-circulo--ouro"><svg viewBox="0 0 24 24"><path d="M3 11.5V9a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v2.5"/><path d="M2.5 17v-3.5a2 2 0 0 1 2-2h15a2 2 0 0 1 2 2V17"/><path d="M2.5 17v2M21.5 17v2M6.5 7V5.5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1V7M12.5 7V5.5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1V7"/></svg></div>
+        <h3 class="h3">Colchões</h3>
+        <p>Manchas amareladas, suor e ácaros não afetam só a aparência: afetam o ar que você respira dormindo. A extração tira tudo isso do colchão.</p>
+        <ul class="lista-check">
+          <li>Manchas de urina e odores</li>
+          <li>Tratamento anti-ácaro e anti-fungo</li>
+          <li>Todos os tamanhos</li>
+        </ul>
+        <a class="btn btn--fantasma" data-wa="Olá! Quero um orçamento para higienizar meu colchão." href="https://wa.me/5551994372227" target="_blank" rel="noopener">Orçamento para colchão <svg class="icone" aria-hidden="true"><use href="#ph-seta"/></svg></a>
+      </article>
+
+      <article class="cartao servicos__card" data-tilt="8" data-reveal="up" data-reveal-atraso="0.16">
+        <div class="icone-circulo icone-circulo--ouro"><svg viewBox="0 0 24 24"><path d="M7 4.5h10a1 1 0 0 1 1 1V11H6V5.5a1 1 0 0 1 1-1z"/><path d="M4.5 11h15v3a2 2 0 0 1-2 2h-11a2 2 0 0 1-2-2z"/><path d="M7 16v4M17 16v4M9.5 20h5"/></svg></div>
+        <h3 class="h3">Poltronas e cadeiras</h3>
+        <p>Da poltrona da sala às cadeiras da mesa de jantar, do escritório ou do seu estúdio. Higienização que respeita o tecido e entrega o conjunto uniforme.</p>
+        <ul class="lista-check">
+          <li>Cadeiras de jantar e escritório</li>
+          <li>Poltronas e recepções</li>
+          <li>Estúdios e salões</li>
+        </ul>
+        <a class="btn btn--fantasma" data-wa="Olá! Quero um orçamento para higienizar poltronas/cadeiras." href="https://wa.me/5551994372227" target="_blank" rel="noopener">Orçamento para poltronas <svg class="icone" aria-hidden="true"><use href="#ph-seta"/></svg></a>
+      </article>
+
+      <article class="cartao servicos__card" data-tilt="8" data-reveal="up">
+        <div class="icone-circulo icone-circulo--ouro"><svg viewBox="0 0 24 24"><rect x="2.5" y="5" width="19" height="8" rx="2"/><path d="M6 10h12M4.5 13v1.5M19.5 13v1.5"/><path d="M8 17c0 1.5-1 2-1 3M12 17c0 1.5-1 2-1 3M16 17c0 1.5-1 2-1 3"/></svg></div>
+        <h3 class="h3">Ar-condicionado</h3>
+        <p>Filtros e partes internas acumulam poeira, fungos e bactérias. Aparelho limpo climatiza melhor, gasta menos energia e dura mais.</p>
+        <ul class="lista-check">
+          <li>Remove poeira, fungos e bactérias</li>
+          <li>Melhora o rendimento e reduz o consumo</li>
+          <li>Preventiva antes do calor chegar</li>
+        </ul>
+        <a class="btn btn--fantasma" data-wa="Olá! Quero um orçamento para higienizar meu ar-condicionado." href="https://wa.me/5551994372227" target="_blank" rel="noopener">Orçamento para ar-condicionado <svg class="icone" aria-hidden="true"><use href="#ph-seta"/></svg></a>
+      </article>
+
+      <article class="cartao servicos__card" data-tilt="8" data-reveal="up" data-reveal-atraso="0.08">
+        <div class="icone-circulo icone-circulo--ouro"><svg viewBox="0 0 24 24"><path d="M12 3.5s6 6.4 6 10.6a6 6 0 0 1-12 0C6 9.9 12 3.5 12 3.5z"/><path d="M3 21h18"/></svg></div>
+        <h3 class="h3">Impermeabilização</h3>
+        <p>Proteção contra líquidos: uma camada invisível que segura vinho, suco e café na superfície do tecido e dá tempo de limpar antes de virar mancha.</p>
+        <ul class="lista-check">
+          <li>Ideal para casas com crianças e pets</li>
+          <li>Mais praticidade na rotina</li>
+          <li>Prolonga a vida do estofado</li>
+        </ul>
+        <a class="btn btn--fantasma" data-wa="Olá! Quero um orçamento para impermeabilizar meu sofá." href="https://wa.me/5551994372227" target="_blank" rel="noopener">Orçamento para impermeabilizar <svg class="icone" aria-hidden="true"><use href="#ph-seta"/></svg></a>
+      </article>
+
+      <article class="cartao servicos__card" data-tilt="8" data-reveal="up" data-reveal-atraso="0.16">
+        <div class="icone-circulo icone-circulo--ouro"><svg viewBox="0 0 24 24"><path d="M12 3 5 6v5.5c0 4.3 3 8 7 9.5 4-1.5 7-5.2 7-9.5V6z"/><path d="m9.2 12 2 2 3.8-4"/></svg></div>
+        <h3 class="h3">Anti-ácaro e anti-fungo</h3>
+        <p>Tratamento que acompanha a higienização: elimina ácaros, fungos e bactérias das fibras e deixa o estofado protegido e cheiroso por mais tempo.</p>
+        <ul class="lista-check">
+          <li>Alívio para quem tem rinite e alergias</li>
+          <li>Colchões, sofás e poltronas</li>
+          <li>Incluído no cuidado completo</li>
+        </ul>
+        <a class="btn btn--fantasma" data-wa="Olá! Quero saber sobre o tratamento anti-ácaro e anti-fungo." href="https://wa.me/5551994372227" target="_blank" rel="noopener">Perguntar sobre o tratamento <svg class="icone" aria-hidden="true"><use href="#ph-seta"/></svg></a>
+      </article>
+    </div>
+
+    <div class="servicos__rodape reveal">
+      <p>Não achou o seu item? <b>Manda uma foto no WhatsApp</b> que a gente diz se dá para higienizar e quanto fica.</p>
+      <a class="btn btn--wa" data-wa="Olá! Tenho um item diferente para higienizar. Posso mandar uma foto?" data-magnetico href="https://wa.me/5551994372227" target="_blank" rel="noopener"><svg class="icone" aria-hidden="true"><use href="#ph-whats"/></svg>Mandar foto no WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 40-antes-depois ===== -->
+<section class="secao secao--creme-2 antes-depois" id="antes-depois" aria-labelledby="antes-depois-titulo">
+  <div class="wrap">
+    <header class="cabecalho-secao cabecalho-secao--centro">
+      <p class="eyebrow"><span class="pulso"></span> Resultados reais</p>
+      <h2 class="h2" id="antes-depois-titulo" data-split="words">Arraste e veja a <span class="acento">diferença</span></h2>
+      <p class="lead reveal">Fotos publicadas pela própria Prime no Instagram, sem filtro: sofás, colchões e cadeiras antes e depois da higienização.</p>
+    </header>
+
+    <div class="antes-depois__grade">
+      <div class="antes-depois__item" data-reveal="up">
+        <figure class="comparar" data-comparar data-inicio="50">
+          <img class="comparar__antes" src="assets/img/fotos/sofa-2-antes.webp" alt="Sofá de canto cinza antes da higienização" width="1000" height="664" loading="lazy" decoding="async">
+          <img class="comparar__depois" src="assets/img/fotos/sofa-2-depois.webp" alt="Sofá de canto cinza depois da higienização, uniforme" width="1000" height="654" loading="lazy" decoding="async">
+          <span class="comparar__rotulo comparar__rotulo--antes">Antes</span><span class="comparar__rotulo comparar__rotulo--depois">Depois</span>
+          <div class="comparar__linha" aria-hidden="true"></div>
+          <button class="comparar__alca" type="button" role="slider" aria-label="Arraste para comparar antes e depois" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6 4 12l5 6M15 6l5 6-5 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <span class="comparar__dica" aria-hidden="true"><span>Arraste</span></span>
+          <figcaption class="sr-only">Sofá de canto: antes à esquerda, depois à direita.</figcaption>
+        </figure>
+        <p class="antes-depois__legenda"><b>Sofá de canto</b> Marcas de uso e sujeira acumulada saíram na extração; o tecido voltou a ficar uniforme.</p>
+      </div>
+
+      <div class="antes-depois__item" data-reveal="up" data-reveal-atraso="0.08">
+        <figure class="comparar" data-comparar data-inicio="50">
+          <img class="comparar__antes" src="assets/img/fotos/sofa-3-antes.webp" alt="Sofá claro antes da higienização" width="1000" height="664" loading="lazy" decoding="async">
+          <img class="comparar__depois" src="assets/img/fotos/sofa-3-depois.webp" alt="Sofá claro depois da higienização" width="1000" height="654" loading="lazy" decoding="async">
+          <span class="comparar__rotulo comparar__rotulo--antes">Antes</span><span class="comparar__rotulo comparar__rotulo--depois">Depois</span>
+          <div class="comparar__linha" aria-hidden="true"></div>
+          <button class="comparar__alca" type="button" role="slider" aria-label="Arraste para comparar antes e depois" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6 4 12l5 6M15 6l5 6-5 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <span class="comparar__dica" aria-hidden="true"><span>Arraste</span></span>
+          <figcaption class="sr-only">Sofá claro: antes à esquerda, depois à direita.</figcaption>
+        </figure>
+        <p class="antes-depois__legenda"><b>Sofá claro</b> Sofá claro escurece aos poucos com oleosidade e poeira. Higienizado a tempo, a cor volta.</p>
+      </div>
+
+      <div class="antes-depois__item" data-reveal="up">
+        <figure class="comparar" data-comparar data-inicio="50">
+          <img class="comparar__antes" src="assets/img/fotos/colchao-1-antes.webp" alt="Colchão com manchas antes da higienização" width="1000" height="664" loading="lazy" decoding="async">
+          <img class="comparar__depois" src="assets/img/fotos/colchao-1-depois.webp" alt="Colchão limpo depois da higienização" width="1000" height="654" loading="lazy" decoding="async">
+          <span class="comparar__rotulo comparar__rotulo--antes">Antes</span><span class="comparar__rotulo comparar__rotulo--depois">Depois</span>
+          <div class="comparar__linha" aria-hidden="true"></div>
+          <button class="comparar__alca" type="button" role="slider" aria-label="Arraste para comparar antes e depois" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6 4 12l5 6M15 6l5 6-5 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <span class="comparar__dica" aria-hidden="true"><span>Arraste</span></span>
+          <figcaption class="sr-only">Colchão: antes à esquerda, depois à direita.</figcaption>
+        </figure>
+        <p class="antes-depois__legenda"><b>Colchão</b> Manchas e resíduos espalhados pelo tecido. Depois da extração e do tratamento anti-ácaro, pronto para dormir.</p>
+      </div>
+
+      <div class="antes-depois__item" data-reveal="up" data-reveal-atraso="0.08">
+        <figure class="comparar" data-comparar data-inicio="50">
+          <img class="comparar__antes" src="assets/img/fotos/colchao-2-antes.webp" alt="Colchão antes da higienização" width="1000" height="664" loading="lazy" decoding="async">
+          <img class="comparar__depois" src="assets/img/fotos/colchao-2-depois.webp" alt="Colchão depois da higienização" width="1000" height="654" loading="lazy" decoding="async">
+          <span class="comparar__rotulo comparar__rotulo--antes">Antes</span><span class="comparar__rotulo comparar__rotulo--depois">Depois</span>
+          <div class="comparar__linha" aria-hidden="true"></div>
+          <button class="comparar__alca" type="button" role="slider" aria-label="Arraste para comparar antes e depois" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6 4 12l5 6M15 6l5 6-5 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <span class="comparar__dica" aria-hidden="true"><span>Arraste</span></span>
+          <figcaption class="sr-only">Colchão: antes à esquerda, depois à direita.</figcaption>
+        </figure>
+        <p class="antes-depois__legenda"><b>Colchão</b> O que parece “só uso” é sujeira presa no tecido. A higienização profissional tira o que o aspirador não alcança.</p>
+      </div>
+
+      <div class="antes-depois__item" data-reveal="up">
+        <figure class="comparar comparar--retrato" data-comparar data-inicio="50">
+          <img class="comparar__antes" src="assets/img/fotos/colchao-3-antes.webp" alt="Colchão com mancha grande antes da higienização" width="1000" height="1103" loading="lazy" decoding="async">
+          <img class="comparar__depois" src="assets/img/fotos/colchao-3-depois.webp" alt="O mesmo colchão sem a mancha, depois da higienização" width="1000" height="1103" loading="lazy" decoding="async">
+          <span class="comparar__rotulo comparar__rotulo--antes">Antes</span><span class="comparar__rotulo comparar__rotulo--depois">Depois</span>
+          <div class="comparar__linha" aria-hidden="true"></div>
+          <button class="comparar__alca" type="button" role="slider" aria-label="Arraste para comparar antes e depois" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6 4 12l5 6M15 6l5 6-5 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          <span class="comparar__dica" aria-hidden="true"><span>Arraste</span></span>
+          <figcaption class="sr-only">Colchão com mancha: antes à esquerda, depois à direita.</figcaption>
+        </figure>
+        <p class="antes-depois__legenda"><b>“Será que salvamos?”</b> Foi o que a Prime perguntou nos stories antes de começar. A resposta está do lado direito.</p>
+      </div>
+
+      <div class="antes-depois__item antes-depois__item--meio" data-reveal="up" data-reveal-atraso="0.08">
+        <figure class="moldura antes-depois__meio">
+          <img src="assets/img/fotos/cadeira-meio.webp" alt="Cadeira estofada com metade do assento higienizada e a outra metade ainda suja" width="900" height="1145" loading="lazy" decoding="async">
+          <span class="antes-depois__meio-tag antes-depois__meio-tag--esq">Sem limpar</span>
+          <span class="antes-depois__meio-tag antes-depois__meio-tag--dir">Higienizado</span>
+        </figure>
+        <p class="antes-depois__legenda"><b>Cadeira, metade a metade</b> A legenda da própria Prime nos stories: “Pouca diferença haha 🤣”.</p>
+      </div>
+    </div>
+
+    <div class="btn-grupo btn-grupo--centro mt-4 reveal">
+      <a class="btn btn--wa btn--lg" data-wa="Olá! Vi o antes e depois no site e quero um orçamento." data-magnetico href="https://wa.me/5551994372227" target="_blank" rel="noopener"><svg class="icone" aria-hidden="true"><use href="#ph-whats"/></svg>Quero o meu antes e depois</a>
+      <a class="btn btn--vidro-escuro btn--lg" href="https://www.instagram.com/prime.higienize" target="_blank" rel="noopener"><svg class="icone" aria-hidden="true"><use href="#ph-insta"/></svg>Ver mais no Instagram</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 50-processo ===== -->
+<section class="secao secao--escura processo brilho-ouro" id="como-funciona" aria-labelledby="processo-titulo">
+  <div class="wrap">
+    <header class="cabecalho-secao">
+      <p class="eyebrow"><span class="pulso"></span> Como funciona</p>
+      <h2 class="h2" id="processo-titulo" data-split="words">Do WhatsApp ao sofá <span class="acento">renovado</span> em 4 passos</h2>
+      <p class="lead reveal">Sem formulário, sem espera: você fala direto com quem vai fazer o serviço. E o orçamento não custa nada.</p>
+    </header>
+
+    <ol class="processo__passos" id="processoPassos">
+      <svg class="processo__linha" viewBox="0 0 1200 40" preserveAspectRatio="none" aria-hidden="true"><path id="processoTraco" d="M20 20C300 20 300 20 600 20S900 20 1180 20" fill="none" stroke="#f8c828" stroke-width="2" stroke-dasharray="6 8"/></svg>
+      <li class="processo__passo" data-reveal="up">
+        <span class="processo__num">1</span>
+        <h3 class="h3">Chame no WhatsApp</h3>
+        <p>Mande uma foto do estofado (ou do ar-condicionado) e conte o que precisa. O orçamento é gratuito e sem compromisso.</p>
+        <a class="btn btn--ouro btn--sm" data-wa="Olá! Quero um orçamento gratuito. Vou mandar uma foto do meu estofado." href="https://wa.me/5551994372227" target="_blank" rel="noopener"><svg class="icone" aria-hidden="true"><use href="#ph-whats"/></svg>Mandar foto agora</a>
+      </li>
+      <li class="processo__passo" data-reveal="up" data-reveal-atraso="0.1">
+        <span class="processo__num">2</span>
+        <h3 class="h3">Agende o dia</h3>
+        <p>A equipe combina a data e vai até a sua casa, apartamento ou empresa, com todo o equipamento. Você não precisa levar nada a lugar nenhum.</p>
+      </li>
+      <li class="processo__passo" data-reveal="up" data-reveal-atraso="0.2">
+        <span class="processo__num">3</span>
+        <h3 class="h3">Higienização profissional</h3>
+        <p>Produto adequado ao tecido, escovação e extração de alta potência que puxa a sujeira de dentro das fibras. Tratamento anti-ácaro e anti-fungo, e impermeabilização se você quiser.</p>
+      </li>
+      <li class="processo__passo" data-reveal="up" data-reveal-atraso="0.3">
+        <span class="processo__num">4</span>
+        <h3 class="h3">Pronto para usar</h3>
+        <p>Você recebe as orientações de secagem e fica com um estofado limpo, cheiroso e, se impermeabilizado, protegido contra os próximos acidentes.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===== 60-videos ===== -->
+<section class="secao videos" id="videos" aria-labelledby="videos-titulo">
+  <div class="wrap">
+    <header class="cabecalho-secao cabecalho-secao--centro">
+      <p class="eyebrow"><span class="pulso"></span> Bastidores no Instagram</p>
+      <h2 class="h2" id="videos-titulo" data-split="words">Veja a Prime <span class="acento">trabalhando</span></h2>
+      <p class="lead reveal">Reels publicados pela equipe: extração ao vivo, transformações de colchão, ar-condicionado por dentro e as dicas que evitam estrago. Toque para assistir aqui mesmo.</p>
+    </header>
+
+    <div class="videos__grade" id="videosGrade">
+      <button class="videos__card" type="button" data-embed="reel/Dc6aP-OO_e6" data-reveal="up">
+        <img src="assets/img/fotos/reel-Dc6aP-OO_e6.webp" alt="" width="360" height="640" loading="lazy" decoding="async">
+        <span class="videos__play" aria-hidden="true"><svg><use href="#ph-play"/></svg></span>
+        <span class="videos__legenda">“Minha mãe me criou direito… agora tenho que trabalhar.”<small>Bastidor · sofá rosa</small></span>
+      </button>
+      <button class="videos__card" type="button" data-embed="reel/DcUVbVoPPu1" data-reveal="up" data-reveal-atraso="0.06">
+        <img src="assets/img/fotos/reel-DcUVbVoPPu1.webp" alt="" width="360" height="640" loading="lazy" decoding="async">
+        <span class="videos__play" aria-hidden="true"><svg><use href="#ph-play"/></svg></span>
+        <span class="videos__legenda">Seu sofá pode estar mais sujo do que parece<small>Extração ao vivo</small></span>
+      </button>
+      <button class="videos__card" type="button" data-embed="reel/DaoFV2ZvwtJ" data-reveal="up" data-reveal-atraso="0.12">
+        <img src="assets/img/fotos/reel-DaoFV2ZvwtJ.webp" alt="" width="360" height="640" loading="lazy" decoding="async">
+        <span class="videos__play" aria-hidden="true"><svg><use href="#ph-play"/></svg></span>
+        <span class="videos__legenda">Veja a transformação deste colchão<small>Mancha de urina</small></span>
+      </button>
+      <button class="videos__card" type="button" data-embed="reel/DczRmeHvhw0" data-reveal="up" data-reveal-atraso="0.18">
+        <img src="assets/img/fotos/reel-DczRmeHvhw0.webp" alt="" width="360" height="640" loading="lazy" decoding="async">
+        <span class="videos__play" aria-hidden="true"><svg><use href="#ph-play"/></svg></span>
+        <span class="videos__legenda">Seu ar-condicionado está realmente limpo?<small>Filtro por dentro</small></span>
+      </button>
+      <button class="videos__card" type="button" data-embed="reel/DbytjXOvJmK" data-reveal="up">
+        <img src="assets/img/fotos/reel-DbytjXOvJmK.webp" alt="" width="360" height="640" loading="lazy" decoding="async">
+        <span class="videos__play" aria-hidden="true"><svg><use href="#ph-play"/></svg></span>
+        <span class="videos__legenda">O maior erro de quem escolhe sofá colorido<small>Dica</small></span>
+      </button>
+      <button class="videos__card" type="button" data-embed="reel/Da0-zEkBpYX" data-reveal="up" data-reveal-atraso="0.06">
+        <img src="assets/img/fotos/reel-Da0-zEkBpYX.webp" alt="" width="360" height="640" loading="lazy" decoding="async">
+        <span class="videos__play" aria-hidden="true"><svg><use href="#ph-play"/></svg></span>
+        <span class="videos__legenda">O erro que faz o sofá claro envelhecer mais rápido<small>Dica</small></span>
+      </button>
+      <button class="videos__card" type="button" data-embed="reel/DaDyj0qOlyC" data-reveal="up" data-reveal-atraso="0.12">
+        <img src="assets/img/fotos/reel-DaDyj0qOlyC.webp" alt="" width="360" height="640" loading="lazy" decoding="async">
+        <span class="videos__play" aria-hidden="true"><svg><use href="#ph-play"/></svg></span>
+        <span class="videos__legenda">O problema não é o sofá claro… é deixá-lo sem proteção<small>Impermeabilização</small></span>
+      </button>
+      <button class="videos__card" type="button" data-embed="reel/DbtlpCfvkl1" data-reveal="up" data-reveal-atraso="0.18">
+        <img src="assets/img/fotos/reel-DbtlpCfvkl1.webp" alt="" width="360" height="640" loading="lazy" decoding="async">
+        <span class="videos__play" aria-hidden="true"><svg><use href="#ph-play"/></svg></span>
+        <span class="videos__legenda">Siga os comandos e acompanhe a limpeza<small>Brincadeira de videogame</small></span>
+      </button>
+    </div>
+
+    <p class="videos__nota reveal">Os vídeos abrem no player oficial do Instagram, dentro desta página. <a href="https://www.instagram.com/prime.higienize" target="_blank" rel="noopener">Seguir @prime.higienize</a></p>
+  </div>
+
+  <!-- modal do player (embed oficial do Instagram, criado só ao clicar) -->
+  <div class="videos__modal" id="videosModal" hidden role="dialog" aria-modal="true" aria-label="Vídeo do Instagram">
+    <div class="videos__modal-fundo" id="videosFundo"></div>
+    <div class="videos__modal-caixa">
+      <button class="videos__fechar" id="videosFechar" type="button" aria-label="Fechar vídeo">×</button>
+      <div class="videos__player" id="videosPlayer"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 70-clientes ===== -->
+<section class="secao secao--clara clientes" id="clientes" aria-labelledby="clientes-titulo">
+  <div class="wrap">
+    <div class="clientes__topo">
+      <header class="cabecalho-secao">
+        <p class="eyebrow"><span class="pulso"></span> Quem já chamou a Prime</p>
+        <h2 class="h2" id="clientes-titulo" data-split="words">A melhor propaganda é um cliente <span class="acento">satisfeito</span></h2>
+        <p class="lead reveal">Relatos publicados pelos próprios clientes no Instagram e no WhatsApp. Sem depoimento encomendado: o que você lê aqui é print.</p>
+      </header>
+      <figure class="clientes__destaque cartao" data-tilt="6" data-reveal="right">
+        <div class="clientes__balao-grupo" aria-label="Mensagens de uma cliente no WhatsApp">
+          <p class="clientes__balao">Ficou excelente <time>17:33</time></p>
+          <p class="clientes__balao">Os meninos muito educados e comprometido com o trabalho. <time>17:33</time></p>
+          <p class="clientes__balao">Adorei! <time>17:33</time></p>
+          <p class="clientes__balao">Já estou indicando para os amigos e moradores do prédio <time>17:34</time></p>
+        </div>
+        <figcaption class="clientes__fonte">Cliente, via WhatsApp · publicado pela Prime em 14/08/2026</figcaption>
+      </figure>
+    </div>
+  </div>
+
+  <div class="clientes__vitrine" id="clientesVitrine">
+    <div class="clientes__trilho" id="clientesTrilho">
+      <figure class="clientes__card">
+        <div class="moldura moldura--retrato"><img src="assets/img/fotos/cliente-pkdocess.webp" alt="Story de cliente mostrando o sofá higienizado" width="540" height="959" loading="lazy" decoding="async"></div>
+        <figcaption><q>Sofá limpíssimo, zero manchas, tratado anti ácaro e anti fungo, reavivamento da cor e muito cheiroso! Recomendo!</q><span>@pkdocess</span></figcaption>
+      </figure>
+      <figure class="clientes__card">
+        <div class="moldura moldura--retrato"><img src="assets/img/fotos/cliente-milena.webp" alt="Story de cliente com a equipe da Prime higienizando o sofá" width="540" height="959" loading="lazy" decoding="async"></div>
+        <figcaption><q>Pós-obra acabou com o meu queridinho 😭 — e a Prime salvou.</q><span>@milenapiovesani</span></figcaption>
+      </figure>
+      <figure class="clientes__card">
+        <div class="moldura moldura--retrato"><img src="assets/img/fotos/cliente-bortollozo.webp" alt="Story de cliente com a equipe da Prime na sala" width="540" height="959" loading="lazy" decoding="async"></div>
+        <figcaption><q>Satisfatório!!!</q><span>@bortollozo</span></figcaption>
+      </figure>
+      <figure class="clientes__card">
+        <div class="moldura moldura--retrato"><img src="assets/img/fotos/cliente-laura-1.webp" alt="Story de cliente mostrando o sofá limpo" width="540" height="959" loading="lazy" decoding="async"></div>
+        <figcaption><q>Dia de cuidado com o nosso cantinho favorito. Com a Prime, claro.</q><span>@lauraabatis</span></figcaption>
+      </figure>
+      <figure class="clientes__card">
+        <div class="moldura moldura--retrato"><img src="assets/img/fotos/cliente-cecinara.webp" alt="Story de cliente com a equipe da Prime higienizando a poltrona" width="540" height="959" loading="lazy" decoding="async"></div>
+        <figcaption><q>Sofá limpinho 🤩</q><span>@cecinara · “+1 cliente satisfeito”</span></figcaption>
+      </figure>
+      <figure class="clientes__card">
+        <div class="moldura moldura--retrato"><img src="assets/img/fotos/cliente-nick.webp" alt="Story de estúdio de unhas com as poltronas sendo higienizadas" width="540" height="959" loading="lazy" decoding="async"></div>
+        <figcaption><q>Dia de higienizar nossas poltronas aqui do studio 💅</q><span>@nickbuzinello.nails</span></figcaption>
+      </figure>
+      <figure class="clientes__card">
+        <div class="moldura moldura--retrato"><img src="assets/img/fotos/cliente-laura-2.webp" alt="Story de cliente com o sofá pronto" width="540" height="959" loading="lazy" decoding="async"></div>
+        <figcaption><q>Prontinho 🤍</q><span>@lauraabatis</span></figcaption>
+      </figure>
+      <figure class="clientes__card clientes__card--cta">
+        <div class="clientes__cta-miolo">
+          <svg class="clientes__cta-sofa" viewBox="0 0 200 200" aria-hidden="true" style="--traco:6"><use href="#ph-sofa"/></svg>
+          <p class="h3">O próximo print pode ser o seu</p>
+          <a class="btn btn--wa" data-wa="Olá! Vi os relatos no site e quero um orçamento." href="https://wa.me/5551994372227" target="_blank" rel="noopener"><svg class="icone" aria-hidden="true"><use href="#ph-whats"/></svg>Pedir orçamento</a>
+        </div>
+      </figure>
+    </div>
+  </div>
+  <p class="clientes__dica so-mobile" aria-hidden="true">Deslize para ver mais →</p>
+</section>
+
+<!-- ===== 75-protecao ===== -->
+<section class="secao secao--ouro protecao textura-marca" id="protecao" aria-labelledby="protecao-titulo">
+  <div class="wrap protecao__grade">
+    <div class="protecao__copy">
+      <p class="eyebrow"><span class="pulso"></span> Impermeabilização</p>
+      <h2 class="h2" id="protecao-titulo" data-split="words">A proteção que você <span class="acento">não vê</span></h2>
+      <p class="lead reveal">Derramou vinho, suco ou café? Com a impermeabilização profissional, o líquido fica na superfície do tecido por mais tempo, e você limpa antes de virar mancha.</p>
+      <ul class="lista-check protecao__lista reveal">
+        <li>Mais tranquilidade para quem tem crianças e pets</li>
+        <li>Mais praticidade na limpeza do dia a dia</li>
+        <li>Preserva a beleza e aumenta a vida útil do sofá</li>
+        <li>Pode ser feita junto com a higienização</li>
+      </ul>
+      <p class="protecao__nota reveal"><b>Sinceridade em primeiro lugar:</b> impermeabilizar não significa que o tecido nunca mais vai manchar. É uma camada protetora que evita que o líquido penetre nas fibras e dá tempo de agir do jeito certo.</p>
+      <div class="btn-grupo reveal">
+        <a class="btn btn--preto btn--lg" data-wa="Olá! Quero um orçamento de impermeabilização para o meu sofá." data-magnetico href="https://wa.me/5551994372227" target="_blank" rel="noopener"><svg class="icone" aria-hidden="true"><use href="#ph-whats"/></svg>Proteger meu sofá</a>
+      </div>
+    </div>
+
+    <div class="protecao__palco" id="protecaoPalco" data-reveal="zoom">
+      <svg class="protecao__svg" viewBox="0 0 400 320" aria-hidden="true">
+        <defs>
+          <linearGradient id="protTecido" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#2a2a2e"/><stop offset="1" stop-color="#0f0f10"/></linearGradient>
+          <linearGradient id="protBrilho" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+        </defs>
+        <!-- tecido do sofá (camada protegida) -->
+        <path class="protecao__tecido" d="M0 200 C60 186 120 214 200 200 S340 186 400 200 V320 H0 Z" fill="url(#protTecido)"/>
+        <path class="protecao__fibras" d="M0 232 C70 222 130 244 200 232 S330 222 400 232 M0 262 C70 252 130 274 200 262 S330 252 400 262 M0 292 C70 282 130 304 200 292 S330 282 400 292" fill="none" stroke="#fff" stroke-opacity=".08" stroke-width="2"/>
+        <!-- película invisível: brilho que passa -->
+        <path class="protecao__pelicula" d="M0 200 C60 186 120 214 200 200 S340 186 400 200" fill="none" stroke="#f8c828" stroke-width="3" stroke-linecap="round"/>
+        <rect class="protecao__reflexo" x="-120" y="180" width="120" height="40" fill="url(#protBrilho)" opacity=".7"/>
+        <!-- gotas -->
+        <g class="protecao__gotas">
+          <g class="protecao__gota" data-x="120"><path d="M0 -22c0 0 -12 13 -12 20a12 12 0 0 0 24 0c0-7-12-20-12-20z" fill="#7a1f2b"/></g>
+          <g class="protecao__gota" data-x="205"><path d="M0 -22c0 0 -12 13 -12 20a12 12 0 0 0 24 0c0-7-12-20-12-20z" fill="#5a3a1a"/></g>
+          <g class="protecao__gota" data-x="290"><path d="M0 -22c0 0 -12 13 -12 20a12 12 0 0 0 24 0c0-7-12-20-12-20z" fill="#b8531a"/></g>
+        </g>
+        <!-- rótulos -->
+        <g class="protecao__rotulos" font-family="Montserrat, sans-serif" font-weight="800" font-size="11" letter-spacing="2" fill="#141414">
+          <text x="14" y="30">VINHO</text><text x="180" y="30">CAFÉ</text><text x="330" y="30">SUCO</text>
+        </g>
+        <text class="protecao__legenda" x="200" y="306" text-anchor="middle" font-family="Montserrat, sans-serif" font-weight="800" font-size="11" letter-spacing="3" fill="#f8c828">O LÍQUIDO FICA NA SUPERFÍCIE</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 80-faq ===== -->
+<section class="secao secao--clara faq" id="faq" aria-labelledby="faq-titulo">
+  <div class="wrap faq__grade">
+    <header class="cabecalho-secao faq__cabecalho">
+      <p class="eyebrow"><span class="pulso"></span> Dúvidas frequentes</p>
+      <h2 class="h2" id="faq-titulo" data-split="words">O que as pessoas perguntam <span class="acento">antes</span> de chamar</h2>
+      <p class="lead reveal">Respostas diretas, sem enrolação. Se a sua dúvida não estiver aqui, manda no WhatsApp que a equipe responde.</p>
+      <a class="btn btn--wa mt-3 reveal" data-wa="Olá! Tenho uma dúvida sobre a higienização." href="https://wa.me/5551994372227" target="_blank" rel="noopener"><svg class="icone" aria-hidden="true"><use href="#ph-whats"/></svg>Perguntar no WhatsApp</a>
+    </header>
+
+    <div class="faq__lista" id="faqLista">
+      <div class="faq__item" data-reveal="up">
+        <h3><button class="faq__pergunta" type="button" aria-expanded="false" aria-controls="faq-r1" id="faq-p1">Quanto custa a higienização?<span class="faq__mais" aria-hidden="true"></span></button></h3>
+        <div class="faq__resposta" id="faq-r1" role="region" aria-labelledby="faq-p1" hidden><div><p>Depende do tipo de estofado, do tamanho e do estado dele. Por isso o orçamento é feito com foto, pelo WhatsApp, e é <b>gratuito e sem compromisso</b>. Manda a foto do sofá, colchão ou ar-condicionado e a equipe responde com o valor.</p></div></div>
+      </div>
+      <div class="faq__item" data-reveal="up">
+        <h3><button class="faq__pergunta" type="button" aria-expanded="false" aria-controls="faq-r2" id="faq-p2">Vocês vão até a minha casa?<span class="faq__mais" aria-hidden="true"></span></button></h3>
+        <div class="faq__resposta" id="faq-r2" role="region" aria-labelledby="faq-p2" hidden><div><p>Sim. O atendimento é em domicílio no Rio Grande do Sul: casa, apartamento, escritório ou estúdio. A equipe leva o equipamento de extração e os produtos. Confirme sua cidade no WhatsApp.</p></div></div>
+      </div>
+      <div class="faq__item" data-reveal="up">
+        <h3><button class="faq__pergunta" type="button" aria-expanded="false" aria-controls="faq-r3" id="faq-p3">Sai mancha de urina, suor e cheiro do colchão?<span class="faq__mais" aria-hidden="true"></span></button></h3>
+        <div class="faq__resposta" id="faq-r3" role="region" aria-labelledby="faq-p3" hidden><div><p>A extração profunda remove as manchas amareladas, os resíduos e os odores que ficam presos no tecido, e o tratamento anti-ácaro e anti-fungo cuida do que não se vê. Quanto mais antiga a mancha, mais difícil, então vale mandar a foto para a equipe avaliar.</p></div></div>
+      </div>
+      <div class="faq__item" data-reveal="up">
+        <h3><button class="faq__pergunta" type="button" aria-expanded="false" aria-controls="faq-r4" id="faq-p4">Impermeabilizar garante que não vai manchar nunca mais?<span class="faq__mais" aria-hidden="true"></span></button></h3>
+        <div class="faq__resposta" id="faq-r4" role="region" aria-labelledby="faq-p4" hidden><div><p>Não, e a Prime é a primeira a dizer isso. A impermeabilização cria uma camada que faz o líquido ficar na superfície por mais tempo, sem penetrar nas fibras. Isso dá tempo de limpar do jeito certo e reduz muito o risco de mancha, mas não é uma blindagem.</p></div></div>
+      </div>
+      <div class="faq__item" data-reveal="up">
+        <h3><button class="faq__pergunta" type="button" aria-expanded="false" aria-controls="faq-r5" id="faq-p5">Ajuda quem tem rinite, sinusite ou alergia?<span class="faq__mais" aria-hidden="true"></span></button></h3>
+        <div class="faq__resposta" id="faq-r5" role="region" aria-labelledby="faq-p5" hidden><div><p>Ácaros, fungos e bactérias acumulados em sofás, colchões e no ar-condicionado estão ligados ao agravamento de rinite, sinusite, alergias respiratórias e crises de asma. A higienização com tratamento anti-ácaro e anti-fungo remove esses microrganismos do estofado e melhora o ar do ambiente.</p></div></div>
+      </div>
+      <div class="faq__item" data-reveal="up">
+        <h3><button class="faq__pergunta" type="button" aria-expanded="false" aria-controls="faq-r6" id="faq-p6">Sofá claro pode higienizar?<span class="faq__mais" aria-hidden="true"></span></button></h3>
+        <div class="faq__resposta" id="faq-r6" role="region" aria-labelledby="faq-p6" hidden><div><p>Pode, e deve. Sofá claro acumula oleosidade e poeira que vão escurecendo o tecido aos poucos. Esperar a mancha aparecer para só depois higienizar costuma sair mais caro. Feita a tempo, a higienização devolve a cor original.</p></div></div>
+      </div>
+      <div class="faq__item" data-reveal="up">
+        <h3><button class="faq__pergunta" type="button" aria-expanded="false" aria-controls="faq-r7" id="faq-p7">Por que limpar o ar-condicionado antes do calor?<span class="faq__mais" aria-hidden="true"></span></button></h3>
+        <div class="faq__resposta" id="faq-r7" role="region" aria-labelledby="faq-p7" hidden><div><p>Depois de meses de uso, filtros e partes internas acumulam poeira, fungos e bactérias. O aparelho trabalha mais para climatizar, gasta mais energia e gela menos justamente quando você mais precisa. A higienização preventiva resolve isso antes dos dias quentes.</p></div></div>
+      </div>
+      <div class="faq__item" data-reveal="up">
+        <h3><button class="faq__pergunta" type="button" aria-expanded="false" aria-controls="faq-r8" id="faq-p8">Quanto tempo leva para secar?<span class="faq__mais" aria-hidden="true"></span></button></h3>
+        <div class="faq__resposta" id="faq-r8" role="region" aria-labelledby="faq-p8" hidden><div><p>Varia com o tipo de tecido, a espessura do estofado e o clima do dia. A extração de alta potência retira a maior parte da umidade na hora, e a equipe orienta o tempo de espera e os cuidados no fim do serviço.</p></div></div>
+      </div>
+      <div class="faq__item" data-reveal="up">
+        <h3><button class="faq__pergunta" type="button" aria-expanded="false" aria-controls="faq-r9" id="faq-p9">Como agendar?<span class="faq__mais" aria-hidden="true"></span></button></h3>
+        <div class="faq__resposta" id="faq-r9" role="region" aria-labelledby="faq-p9" hidden><div><p>Pelo WhatsApp <a data-wa="Olá! Quero agendar uma higienização." href="https://wa.me/5551994372227" target="_blank" rel="noopener">(51) 99437-2227</a> ou pelo direct do <a href="https://www.instagram.com/prime.higienize" target="_blank" rel="noopener">@prime.higienize</a>. Você manda a foto, recebe o orçamento e combina o dia.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 85-atendimento ===== -->
+<section class="secao secao--escura atendimento grade-fina" id="atendimento" aria-labelledby="atendimento-titulo">
+  <div class="wrap atendimento__grade">
+    <div>
+      <header class="cabecalho-secao">
+        <p class="eyebrow"><span class="pulso"></span> Onde e como atendemos</p>
+        <h2 class="h2" id="atendimento-titulo" data-split="words">Em domicílio, no <span class="acento">Rio Grande do Sul</span></h2>
+        <p class="lead reveal">A Prime vai até a sua casa, apartamento, escritório ou estúdio com todo o equipamento. Você não desmonta nada nem leva nada a lugar nenhum. Confirme sua cidade pelo WhatsApp.</p>
+      </header>
+      <div class="atendimento__contatos">
+        <a class="atendimento__contato" data-wa="Olá! Vim pelo site da Prime Higienize e quero um orçamento." href="https://wa.me/5551994372227" target="_blank" rel="noopener" data-reveal="up">
+          <span class="icone-circulo"><svg viewBox="0 0 24 24" style="fill:currentColor;stroke:none"><use href="#ph-whats"/></svg></span>
+          <span><small>WhatsApp</small>(51) 99437-2227</span>
+        </a>
+        <a class="atendimento__contato" href="https://www.instagram.com/prime.higienize" target="_blank" rel="noopener" data-reveal="up" data-reveal-atraso="0.08">
+          <span class="icone-circulo"><svg viewBox="0 0 24 24"><use href="#ph-insta"/></svg></span>
+          <span><small>Instagram</small>@prime.higienize</span>
+        </a>
+        <div class="atendimento__contato atendimento__contato--info" data-reveal="up" data-reveal-atraso="0.16">
+          <span class="icone-circulo"><svg viewBox="0 0 24 24"><use href="#ph-pino"/></svg></span>
+          <span><small>Região</small>Rio Grande do Sul · atendimento em domicílio</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="atendimento__montar cartao cartao--vidro" data-reveal="left">
+      <p class="eyebrow"><span class="pulso"></span> Monte sua mensagem</p>
+      <p class="atendimento__montar-titulo h3">O que você quer higienizar?</p>
+      <div class="atendimento__chips" id="atendimentoChips" role="group" aria-label="Escolha os itens">
+        <button class="chip" type="button" aria-pressed="false" data-item="sofá">Sofá</button>
+        <button class="chip" type="button" aria-pressed="false" data-item="colchão">Colchão</button>
+        <button class="chip" type="button" aria-pressed="false" data-item="poltrona">Poltrona</button>
+        <button class="chip" type="button" aria-pressed="false" data-item="cadeiras">Cadeiras</button>
+        <button class="chip" type="button" aria-pressed="false" data-item="ar-condicionado">Ar-condicionado</button>
+        <button class="chip" type="button" aria-pressed="false" data-item="impermeabilização">Impermeabilização</button>
+      </div>
+      <p class="atendimento__previa" id="atendimentoPrevia" aria-live="polite">Olá! Vim pelo site da Prime Higienize e quero um orçamento.</p>
+      <a class="btn btn--wa btn--lg btn--bloco" id="atendimentoBotao" data-magnetico href="https://wa.me/5551994372227?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Prime%20Higienize%20e%20quero%20um%20or%C3%A7amento." target="_blank" rel="noopener"><svg class="icone" aria-hidden="true"><use href="#ph-whats"/></svg>Enviar no WhatsApp</a>
+      <p class="nota-fonte mt-2">Abre o WhatsApp com a mensagem pronta. Depois é só mandar a foto do item.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 90-cta-final ===== -->
+<section class="secao cta-final textura-marca" id="cta-final" aria-labelledby="cta-final-titulo">
+  <div class="cta-final__luz" aria-hidden="true"></div>
+  <div class="wrap wrap--estreito centro cta-final__miolo">
+    <svg class="cta-final__sofa" viewBox="0 0 200 200" aria-hidden="true" style="--traco:4"><use href="#ph-sofa"/></svg>
+    <p class="eyebrow"><span class="pulso"></span> Orçamento gratuito</p>
+    <h2 class="h2 cta-final__titulo" id="cta-final-titulo" data-split="words">Manda uma foto. <span class="acento acento--brilho">A gente responde</span> com o valor.</h2>
+    <p class="lead reveal">Sem formulário, sem espera. Você fala direto com a equipe que vai até a sua casa e deixa seu estofado limpo de verdade.</p>
+    <div class="btn-grupo btn-grupo--centro mt-4 reveal">
+      <a class="btn btn--wa btn--xl" data-wa="Olá! Vim pelo site da Prime Higienize e quero um orçamento gratuito. Vou mandar uma foto." data-magnetico href="https://wa.me/5551994372227" target="_blank" rel="noopener"><svg class="icone" aria-hidden="true"><use href="#ph-whats"/></svg>Pedir orçamento no WhatsApp</a>
+    </div>
+    <p class="cta-final__nota reveal">Atendimento em domicílio · Rio Grande do Sul · @prime.higienize</p>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ RODAPÉ ============ -->
+<footer class="rodape" id="rodape">
+  <div class="wrap rodape__grade">
+    <div>
+      <img class="rodape__logo" src="assets/img/marca/logo-branco-h.webp" alt="Prime Higienize" width="865" height="196" loading="lazy" decoding="async">
+      <p class="rodape__frase">Higienização de estofados e ar-condicionado</p>
+      <p>Sofás, colchões, poltronas, cadeiras e ar-condicionado higienizados em domicílio, com proteção contra líquidos e tratamento anti-ácaro. Orçamento gratuito pelo WhatsApp.</p>
+    </div>
+    <nav aria-label="Rodapé">
+      <p class="rodape__titulo">Navegação</p>
+      <div class="rodape__lista">
+        <a href="#servicos">Serviços</a>
+        <a href="#antes-depois">Antes e depois</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#videos">Vídeos</a>
+        <a href="#clientes">Clientes</a>
+        <a href="#faq">Dúvidas</a>
+      </div>
+    </nav>
+    <div>
+      <p class="rodape__titulo">Contato</p>
+      <div class="rodape__lista">
+        <a data-wa="Olá! Vim pelo site da Prime Higienize e quero um orçamento." href="https://wa.me/5551994372227" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#ph-whats"/></svg>(51)&nbsp;99437&#8209;2227</a>
+        <a href="https://www.instagram.com/prime.higienize" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#ph-insta"/></svg>@prime.higienize</a>
+        <span><svg aria-hidden="true"><use href="#ph-pino"/></svg>Atendimento em domicílio · Rio Grande do Sul</span>
+      </div>
+    </div>
+    <div>
+      <p class="rodape__titulo">Como funciona</p>
+      <p class="rodape__nota"><b>Orçamento gratuito</b> Você manda foto e medidas pelo WhatsApp e recebe o valor.</p>
+      <p class="rodape__nota mt-2"><b>Atendimento na sua casa</b> A equipe vai até você com o equipamento de extração.</p>
+    </div>
+  </div>
+  <div class="wrap rodape__barra">
+    <span>© <span id="ano">2026</span> Prime Higienize · Todos os direitos reservados</span>
+    <span>Desenvolvido por <a href="https://www.gdstudiox.com.br" target="_blank" rel="noopener">GD Studio X</a></span>
+  </div>
+</footer>
+
+<!-- ============ WHATSAPP FLUTUANTE ============ -->
+<a class="wafloat" id="wafloat" data-wa="Olá! Vim pelo site da Prime Higienize e quero um orçamento." href="https://wa.me/5551994372227" target="_blank" rel="noopener" aria-label="Pedir orçamento pelo WhatsApp">
+  <svg aria-hidden="true"><use href="#ph-whats"/></svg>
+</a>
+
+<!-- ============ SCRIPTS (GSAP local, sem CDN) ============ -->
+<script src="assets/js/vendor/gsap.min.js"></script>
+<script src="assets/js/vendor/ScrollTrigger.min.js"></script>
+<script src="assets/js/vendor/ScrollToPlugin.min.js"></script>
+<script src="assets/js/vendor/SplitText.min.js"></script>
+<script src="assets/js/nucleo.js"></script>
+<script defer src="assets/js/secoes/10-heroi.js"></script>
+<script defer src="assets/js/secoes/15-faixa.js"></script>
+<script defer src="assets/js/secoes/20-problema.js"></script>
+<script defer src="assets/js/secoes/40-antes-depois.js"></script>
+<script defer src="assets/js/secoes/50-processo.js"></script>
+<script defer src="assets/js/secoes/60-videos.js"></script>
+<script defer src="assets/js/secoes/70-clientes.js"></script>
+<script defer src="assets/js/secoes/75-protecao.js"></script>
+<script defer src="assets/js/secoes/80-faq.js"></script>
+<script defer src="assets/js/secoes/85-atendimento.js"></script>
+</body>
+</html>

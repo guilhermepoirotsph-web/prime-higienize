@@ -1,0 +1,18 @@
+/* ===== 40 · ANTES E DEPOIS ===== */
+.antes-depois__grade{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(1.4rem,3vw,2.4rem)}
+.antes-depois__item .comparar{box-shadow:var(--sombra-suave)}
+.comparar--retrato{aspect-ratio:1000/1103}
+.antes-depois__legenda{margin-top:.9rem;font-size:.95rem;color:var(--texto-suave);line-height:1.6}
+.antes-depois__legenda b{display:block;font-family:var(--fonte-display);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ouro-texto);margin-bottom:.2rem}
+.antes-depois__meio{aspect-ratio:900/1145;border-radius:var(--raio)}
+.antes-depois__meio-tag{position:absolute;top:.9rem;padding:.35rem .7rem;border-radius:999px;font-family:var(--fonte-display);font-size:.66rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
+.antes-depois__meio-tag--esq{left:.9rem;background:rgba(0,0,0,.6);color:#fff}
+.antes-depois__meio-tag--dir{right:.9rem;background:var(--ouro);color:var(--preto-950)}
+.antes-depois__item--meio{grid-row:span 1}
+@media (min-width:761px){
+  /* o item retrato (colchão 3) e a cadeira ficam lado a lado com a mesma altura */
+  .antes-depois__item:nth-child(5),.antes-depois__item:nth-child(6){align-self:start}
+}
+@media (max-width:760px){
+  .antes-depois__grade{grid-template-columns:1fr}
+}
