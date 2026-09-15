@@ -1,6 +1,6 @@
 # RETOMAR — Prime Higienizações (landing)
 
-Status: EM ANDAMENTO — site no GitHub (guilhermepoirotsph-web/prime-higienize, privado, main 82f9665); pacote _site + publicar.mjs prontos para Cloudflare Pages
+Status: EM ANDAMENTO — 15/09/2026: os TRÊS sites (Prime, iMagicPhone, Ludovicca) estão no GitHub e sendo publicados no Cloudflare Pages (wrangler autenticado nesta máquina)
 Atualizado: 2026-09-14 (sessão 7b4c5db8)
 
 ## Pedido original do Guilherme
@@ -26,4 +26,12 @@ vídeos e atendimentos vêm todos do Instagram. Se a sessão cair, RETOMAR sozin
 6. [ ] Registrar no Segundo Cérebro (nota do projeto + diário)
 
 ## Próximo passo
-Passos 1-5 FEITOS (repo criado e push feito em 15/09). Passo atual: auditoria multi-agente do pacote (workflow wf_66d887aa-daf, script em ~/.claude/projects/.../workflows/scripts/auditoria-pacote-prime-wf_66d887aa-daf.js; se caiu, relançar com resumeFromRunId ou auditar à mão: CSP do _headers, pacote, LEIA-ME x doc do Cloudflare, resíduos do Odonto). Depois: aplicar achados, node publicar.mjs, commit + push, registrar no cofre, apagar cron.
+Escopo ampliado pelo Guilherme em 15/09: "sobe no repositório e já hospeda no Cloudflare já; faz a mesma coisa com o iMagic iPhone e com o Ludovicca".
+
+1. [x] Prime: repo privado guilhermepoirotsph-web/prime-higienize; pacote por `node publicar.mjs` (_site)
+2. [x] iMagicPhone (Clientes/iMagicPhone/site, repo imagicphone): scripts/publicar-cloudflare.mjs + .node-version, build base "/", dist pronto, push feito
+3. [x] Ludovicca (Clientes/Ludovicca/site, repo ludovicca): scripts/publicar-cloudflare.mjs + .node-version, dist pronto, push feito
+4. [ ] Deploy dos três no Cloudflare Pages (`npx wrangler@4 pages deploy <pasta> --project-name <nome> --branch main --commit-dirty=true`; projetos: prime-higienize, imagicphone, ludovicca)
+5. [ ] Conferir cada URL .pages.dev pela rede (HTTP 200, noindex, _headers aplicados, rota funda 200)
+6. [ ] Registrar no Segundo Cérebro (nota de cada projeto + [[Cloudflare Pages]] + diário) e apagar o cron
+7. [ ] Pendente de auditoria: o workflow wf_66d887aa-daf morreu no limite do Fable; se quiser, refazer com Opus.
