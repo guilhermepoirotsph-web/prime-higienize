@@ -84,12 +84,13 @@ if (PRODUCAO) {
 /* 6. _headers (formato do Cloudflare Pages): segurança + cache */
 const csp = [
   "default-src 'self'",
-  "script-src 'self' 'unsafe-inline'",                      // boot inline do <head> (marca .js/.anim) e JSON-LD
+  // Google Tag Manager (GTM-PD6F9S38) e o que ele dispara hoje: Google Ads (AW-18338172335) e GA4
+  "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://googleads.g.doubleclick.net https://www.googleadservices.com", // boot inline do <head>, JSON-LD e tags do Google
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
   "font-src 'self' https://fonts.gstatic.com",
-  "img-src 'self' data:",                                   // data: = ícone de check do .lista-check em CSS
-  "frame-src https://www.instagram.com https://instagram.com", // player oficial dos reels (modal)
-  "connect-src 'self'",
+  "img-src 'self' data: https://www.googletagmanager.com https://*.google-analytics.com https://www.google.com https://www.google.com.br https://*.doubleclick.net https://www.googleadservices.com", // data: = ícone de check do .lista-check em CSS; o resto = pixels do Google
+  "frame-src https://www.instagram.com https://instagram.com https://www.googletagmanager.com https://td.doubleclick.net https://bid.g.doubleclick.net", // player oficial dos reels (modal) + GTM sem JS + Google Ads
+  "connect-src 'self' https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com https://www.google.com https://www.google.com.br https://*.doubleclick.net https://www.googleadservices.com",
   "object-src 'none'", "base-uri 'self'", "form-action 'self'", "frame-ancestors 'none'",
   'upgrade-insecure-requests',
 ].join('; ');
