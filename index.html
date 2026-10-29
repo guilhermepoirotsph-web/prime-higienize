@@ -64,6 +64,7 @@
 
 <link rel="stylesheet" href="assets/css/base.css">
 <link rel="stylesheet" href="assets/css/secoes/10-heroi.css">
+<link rel="stylesheet" href="assets/css/secoes/12-antes-depois-ar.css">
 <link rel="stylesheet" href="assets/css/secoes/15-faixa.css">
 <link rel="stylesheet" href="assets/css/secoes/20-problema.css">
 <link rel="stylesheet" href="assets/css/secoes/30-servicos.css">
@@ -179,7 +180,7 @@
   <div class="wrap heroi__grade">
     <div class="heroi__copy">
       <p class="eyebrow heroi__eyebrow"><span class="pulso"></span> Higienização de estofados e ar-condicionado · em domicílio</p>
-      <h1 class="h1 heroi__titulo" id="heroi-titulo">Seu estofado <span class="acento acento--brilho">limpo de verdade.</span> Sem sair de casa.</h1>
+      <h1 class="h1 heroi__titulo" id="heroi-titulo">Seu estofado e Ar-Condicionado<span class="acento acento--brilho">limpos de verdade.</span> Sem sair de casa.</h1>
       <p class="lead heroi__lead">Sofás, colchões, poltronas, cadeiras e ar-condicionado com extração profunda, tratamento anti-ácaro e anti-fungo e proteção contra líquidos. A equipe da Prime vai até você, no Rio Grande do Sul.</p>
       <div class="btn-grupo heroi__acoes">
         <a class="btn btn--wa btn--lg" data-wa="Olá! Vim pelo site da Prime Higienize e quero um orçamento gratuito." data-magnetico href="https://wa.me/5551994372227" target="_blank" rel="noopener">
@@ -219,6 +220,34 @@
   </div>
 
   <a class="heroi__rolar" href="#faixa" aria-label="Rolar para baixo"><span></span></a>
+</section>
+
+<!-- ===== 12-antes-depois-ar ===== -->
+<section class="secao secao--branca antes-depois-ar" id="antes-depois-ar" aria-labelledby="antes-depois-ar-titulo">
+  <div class="wrap">
+    <header class="cabecalho-secao cabecalho-secao--centro">
+      <p class="eyebrow"><span class="pulso"></span> Manutenção de ar-condicionado</p>
+      <h2 class="h2" id="antes-depois-ar-titulo" data-split="words">Veja a diferença no <span class="acento">seu ar</span></h2>
+      <p class="lead reveal">Arraste para comparar o filtro antes e depois da higienização da Prime.</p>
+    </header>
+
+    <div class="antes-depois-ar__palco" data-reveal="up">
+      <figure class="comparar" data-comparar data-inicio="50">
+        <img class="comparar__antes" src="assets/img/fotos/ar-antes.svg" alt="Filtro de ar-condicionado antes da higienização" width="1000" height="664" loading="lazy" decoding="async">
+        <img class="comparar__depois" src="assets/img/fotos/ar-depois.svg" alt="Filtro de ar-condicionado depois da higienização" width="1000" height="664" loading="lazy" decoding="async">
+        <span class="comparar__rotulo comparar__rotulo--antes">Antes</span><span class="comparar__rotulo comparar__rotulo--depois">Depois</span>
+        <div class="comparar__linha" aria-hidden="true"></div>
+        <button class="comparar__alca" type="button" role="slider" aria-label="Arraste para comparar antes e depois" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6 4 12l5 6M15 6l5 6-5 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <span class="comparar__dica" aria-hidden="true"><span>Arraste</span></span>
+        <figcaption class="sr-only">Filtro do ar-condicionado: antes à esquerda, depois à direita.</figcaption>
+      </figure>
+      <p class="antes-depois-ar__legenda"><b>Filtro e partes internas</b> Poeira e sujeira acumuladas no filtro fazem o aparelho trabalhar mais para climatizar o ambiente. Com a limpeza, o ar volta a sair mais limpo e o consumo tende a cair.</p>
+    </div>
+
+    <div class="btn-grupo btn-grupo--centro mt-4 reveal">
+      <a class="btn btn--wa btn--lg" data-wa="Olá! Vi o antes e depois do ar-condicionado no site e quero um orçamento." data-magnetico href="https://wa.me/5551994372227" target="_blank" rel="noopener"><svg class="icone" aria-hidden="true"><use href="#ph-whats"/></svg>Quero limpar o meu ar-condicionado</a>
+    </div>
+  </div>
 </section>
 
 <!-- ===== 15-faixa ===== -->
@@ -639,6 +668,14 @@
   </div>
   <p class="clientes__dica so-mobile" aria-hidden="true">Deslize para ver mais →</p>
 </section>
+<section class="secao secao--clara historia" id="historia">
+  <div class="wrap text-center">
+    <h2 class="h2">História que Inspira</h2>
+    <p class="lead">
+      A Prime Higienize nasceu durante a grande inundação em Porto Alegre. Enquanto muitas famílias sofriam, <strong>Leonardo</strong> ajudou dezenas delas a restaurar seus estofados, trazendo conforto e esperança em meio ao caos. Hoje são centenas de avaliações positivas e referência em qualidade.
+    </p>
+  </div>
+</section>
 
 <!-- ===== 75-protecao ===== -->
 <section class="secao secao--ouro protecao textura-marca" id="protecao" aria-labelledby="protecao-titulo">
@@ -849,6 +886,7 @@
 <script src="assets/js/vendor/SplitText.min.js"></script>
 <script src="assets/js/nucleo.js"></script>
 <script defer src="assets/js/secoes/10-heroi.js"></script>
+<script defer src="assets/js/secoes/12-antes-depois-ar.js"></script>
 <script defer src="assets/js/secoes/15-faixa.js"></script>
 <script defer src="assets/js/secoes/20-problema.js"></script>
 <script defer src="assets/js/secoes/40-antes-depois.js"></script>
