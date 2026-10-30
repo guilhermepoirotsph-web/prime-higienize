@@ -7,7 +7,7 @@
 - Nome: **Prime Higienize** (no IG: "Prime Higienize | Higienização de Estofados e Ar-condicionados"). O Guilherme chamou de "Prime Higienizações" — o nome público da marca é **Prime Higienize**.
 - Instagram: https://www.instagram.com/prime.higienize · 1.235 seguidores · 25 posts (14/09/2026)
 - WhatsApp (link da bio): **+55 51 99437-2227** → https://wa.me/5551994372227
-- Site na bio: `https://www.primehigienize.com` — **não resolve** (domínio sem DNS em 15/09/2026). Pode ser domínio deles já comprado → perguntar ao Guilherme/cliente (candidato natural para publicar).
+- Site na bio: `https://www.primehigienize.com` — **não resolve** (domínio sem DNS em 15/09/2026). Domínio confirmado pelo Guilherme em 29/10/2026: `https://www.primehigienize.com.br`, já ligado ao projeto `prime-higienize` no Cloudflare. O link da bio precisa trocar para esse.
 - Bio: "✨ Limpeza de estofados e ar-condicionado · 🛡️ Proteção contra líquidos · 🦠 Adeus ácaros, bactérias e microrganismos · 👇🏻 Faça seu orçamento gratuito"
 - Logo (foto de perfil 1052×1052, fundo branco): monograma "PH" dentro de um sofá desenhado em linha preta, arco dourado por cima; "PRIME" preto, "HIGIENIZE" dourado. Cores medidas: **ouro #F8C828**, preto, branco. Posts usam degradê amarelo/dourado com texto preto e dourado.
 - Equipe: dois rapazes de polo preta com o logo ("os meninos", como uma cliente escreveu). Extratora verde/preta.
@@ -65,4 +65,5 @@
 ## Assets gerados (assets/img)
 - `marca/logo-{cor,branco,ouro,preto}.png` (+ `-700`, `-h` lockup 196px de altura, `simbolo-*`, `wordmark-*`), favicons, `og.jpg`
 - `fotos/sofa-{1,2,3}-{antes,depois}.webp`, `colchao-{1,2,3}-{antes,depois}.webp` (recortados das colagens do IG), `cadeira-meio.webp`
+- `fotos/ar-1-{antes,depois}.webp` (900×594): fotos do ar-condicionado enviadas pelo Guilherme em 30/10/2026 (originais 900×1600, retrato), recortadas na proporção do comparador. Antes: filtros cobertos de poeira; depois: aparelho aberto com filtros e serpentina limpos.
 - `fotos/cliente-*.webp` (reposts), `cliente-whatsapp.webp`, `reel-<código>.webp` (capas)

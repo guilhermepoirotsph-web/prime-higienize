@@ -5,7 +5,7 @@
  * O repositório guarda tudo (partes/, docs/, ferramentas/); a hospedagem recebe só o pacote.
  *
  *   node publicar.mjs                                          → PRÉVIA: noindex (meta + header), robots fechado
- *   node publicar.mjs --dominio=https://www.primehigienize.com → PRODUÇÃO: sem noindex, canonical/og:url,
+ *   node publicar.mjs --dominio=https://www.primehigienize.com.br → PRODUÇÃO: sem noindex, canonical/og:url,
  *                                                                 URLs absolutas, robots aberto, sitemap.xml
  *
  * No Cloudflare Pages (integração com o GitHub): build command = `node publicar.mjs` (ou com --dominio),

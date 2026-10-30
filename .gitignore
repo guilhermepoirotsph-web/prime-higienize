@@ -4,3 +4,4 @@ node_modules/
 *.log
 SENHAS-NAO-COMITAR.txt
 index.teste-*.html
+.wrangler/

@@ -21,14 +21,14 @@ powershell -ExecutionPolicy Bypass -File "C:\Users\sandr\OneDrive\Área de Traba
 
 ## Publicar (Cloudflare Pages)
 O repositório guarda tudo; a hospedagem recebe só a pasta `_site/`, gerada por `node publicar.mjs`
-(prévia, com noindex) ou `node publicar.mjs --dominio=https://www.primehigienize.com` (produção:
+(prévia, com noindex) ou `node publicar.mjs --dominio=https://www.primehigienize.com.br` (produção:
 sem noindex, canonical/og:url, robots aberto, sitemap). O script aborta se um arquivo de bastidor,
 um JWT perigoso ou uma referência quebrada entrar no pacote.
 
 **Opção A — Git integrado (recomendado):** Cloudflare dashboard → Workers & Pages → Create → Pages →
 Connect to Git → repo `prime-higienize` → Framework preset: *None* · Build command: `node publicar.mjs` ·
 Build output directory: `_site` · Root directory: `/`. Cada `git push` republica. Quando o domínio for
-ligado, trocar o build command para `node publicar.mjs --dominio=https://www.primehigienize.com`.
+ligado, trocar o build command para `node publicar.mjs --dominio=https://www.primehigienize.com.br`.
 
 **Opção B — upload direto (sem Git):**
 ```powershell
@@ -36,9 +36,9 @@ node "C:\Users\sandr\OneDrive\Área de Trabalho\Clientes\Prime Higienizações\s
 npx wrangler pages deploy "C:\Users\sandr\OneDrive\Área de Trabalho\Clientes\Prime Higienizações\site\_site" --project-name prime-higienize
 ```
 
-**Domínio:** Custom domains do projeto Pages → adicionar `www.primehigienize.com` (e o apex) — se o
+**Domínio:** Custom domains do projeto Pages → adicionar `www.primehigienize.com.br` (e o apex) — se o
 domínio já estiver na Cloudflare, o DNS é criado sozinho; senão, CNAME `www` → `<projeto>.pages.dev`.
-A bio do Instagram já aponta para `www.primehigienize.com` (sem DNS em 15/09/2026) — confirmar com o cliente se o domínio é dele.
+A bio do Instagram ainda aponta para `www.primehigienize.com` (sem DNS). O domínio confirmado é `www.primehigienize.com.br`: trocar o link da bio.
 
 `_headers` do pacote traz CSP, HSTS, X-Frame DENY, Referrer-Policy, Permissions-Policy e cache; em prévia também `X-Robots-Tag: noindex`.
 

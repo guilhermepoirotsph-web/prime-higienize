@@ -1,6 +1,6 @@
 # RETOMAR — Prime Higienizações (landing)
 
-Status: EM ANDAMENTO — 15/09/2026: os TRÊS sites (Prime, iMagicPhone, Ludovicca) estão no GitHub e sendo publicados no Cloudflare Pages (wrangler autenticado nesta máquina)
+Status: CONCLUÍDO (15/09/2026) — os três sites NO AR no Cloudflare Pages (prime-higienize / imagicphone / ludovicca .pages.dev, noindex) + prévia da Prime no GitHub Pages; falta só domínio de cada cliente
 Atualizado: 2026-09-14 (sessão 7b4c5db8)
 
 ## Pedido original do Guilherme
@@ -23,7 +23,7 @@ vídeos e atendimentos vêm todos do Instagram. Se a sessão cair, RETOMAR sozin
 3. [ ] Escrever seções: herói 3D/imersivo, prova, serviços (sofá, colchão, cadeira, poltrona, ar-condicionado, impermeabilização), antes/depois, processo, vídeos (reels embed), feedbacks, FAQ, área/atendimento, CTA final
 4. [ ] Montar, testar (Chrome headless desktop + mobile emulado), corrigir
 5. [ ] Publicar prévia (GitHub Pages noindex) e mensagem pronta pro WhatsApp
-6. [ ] Registrar no Segundo Cérebro (nota do projeto + diário)
+6. [x] Registrado no cofre (Cloudflare Pages, wrangler, 3 projetos, diário)
 
 ## Próximo passo
 Escopo ampliado pelo Guilherme em 15/09: "sobe no repositório e já hospeda no Cloudflare já; faz a mesma coisa com o iMagic iPhone e com o Ludovicca".
@@ -31,7 +31,7 @@ Escopo ampliado pelo Guilherme em 15/09: "sobe no repositório e já hospeda no 
 1. [x] Prime: repo privado guilhermepoirotsph-web/prime-higienize; pacote por `node publicar.mjs` (_site)
 2. [x] iMagicPhone (Clientes/iMagicPhone/site, repo imagicphone): scripts/publicar-cloudflare.mjs + .node-version, build base "/", dist pronto, push feito
 3. [x] Ludovicca (Clientes/Ludovicca/site, repo ludovicca): scripts/publicar-cloudflare.mjs + .node-version, dist pronto, push feito
-4. [ ] Deploy dos três no Cloudflare Pages (`npx wrangler@4 pages deploy <pasta> --project-name <nome> --branch main --commit-dirty=true`; projetos: prime-higienize, imagicphone, ludovicca)
-5. [ ] Conferir cada URL .pages.dev pela rede (HTTP 200, noindex, _headers aplicados, rota funda 200)
+4. [x] Deploy dos três no Cloudflare Pages — feito e conferido pela rede
+5. [x] URLs conferidas: HTTP 200, noindex, _headers aplicados, rota funda 200 nos dois SPAs
 6. [ ] Registrar no Segundo Cérebro (nota de cada projeto + [[Cloudflare Pages]] + diário) e apagar o cron
 7. [ ] Pendente de auditoria: o workflow wf_66d887aa-daf morreu no limite do Fable; se quiser, refazer com Opus.
