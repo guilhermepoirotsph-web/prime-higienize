@@ -5,3 +5,4 @@ node_modules/
 SENHAS-NAO-COMITAR.txt
 index.teste-*.html
 .wrangler/
+_gtm-*.js
