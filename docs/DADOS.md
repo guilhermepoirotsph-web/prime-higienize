@@ -65,5 +65,5 @@
 ## Assets gerados (assets/img)
 - `marca/logo-{cor,branco,ouro,preto}.png` (+ `-700`, `-h` lockup 196px de altura, `simbolo-*`, `wordmark-*`), favicons, `og.jpg`
 - `fotos/sofa-{1,2,3}-{antes,depois}.webp`, `colchao-{1,2,3}-{antes,depois}.webp` (recortados das colagens do IG), `cadeira-meio.webp`
-- `fotos/ar-1-{antes,depois}.webp` (900×594): fotos do ar-condicionado enviadas pelo Guilherme em 30/10/2026 (originais 900×1600, retrato), recortadas na proporção do comparador. Antes: filtros cobertos de poeira; depois: aparelho aberto com filtros e serpentina limpos.
+- `fotos/ar-1-{antes,depois}.webp` (900×594): fotos do ar-condicionado enviadas pelo Guilherme em 30/10/2026 (originais 900×1600, retrato), recortadas na proporção do comparador. Antes: filtros cobertos de poeira; depois: aparelho aberto com filtros e serpentina limpos. Usadas na seção `partes/12-antes-depois-ar.html` (logo abaixo do herói, pedido dele de ter o ar no topo).
 - `fotos/cliente-*.webp` (reposts), `cliente-whatsapp.webp`, `reel-<código>.webp` (capas)

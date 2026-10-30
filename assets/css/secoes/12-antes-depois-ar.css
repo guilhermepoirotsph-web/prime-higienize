@@ -1,0 +1,5 @@
+/* ===== 12 · ANTES E DEPOIS DO AR-CONDICIONADO ===== */
+.antes-depois-ar__palco{max-width:760px;margin-inline:auto} /* fotos recortadas em paisagem (900×594), mesma proporção do .comparar */
+.antes-depois-ar__palco .comparar{box-shadow:var(--sombra-suave)}
+.antes-depois-ar__legenda{margin-top:.9rem;font-size:.95rem;color:var(--texto-suave);line-height:1.6;text-align:center}
+.antes-depois-ar__legenda b{display:block;font-family:var(--fonte-display);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ouro-texto);margin-bottom:.2rem}

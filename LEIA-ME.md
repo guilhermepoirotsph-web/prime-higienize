@@ -27,8 +27,8 @@ um JWT perigoso ou uma referência quebrada entrar no pacote.
 
 **Opção A — Git integrado (recomendado):** Cloudflare dashboard → Workers & Pages → Create → Pages →
 Connect to Git → repo `prime-higienize` → Framework preset: *None* · Build command: `node publicar.mjs` ·
-Build output directory: `_site` · Root directory: `/`. Cada `git push` republica. Quando o domínio for
-ligado, trocar o build command para `node publicar.mjs --dominio=https://www.primehigienize.com.br`.
+Build output directory: `_site` · Root directory: `/`. Cada `git push` republica. Com o domínio
+ligado, o build command é `node publicar.mjs --dominio=https://www.primehigienize.com.br`.
 
 **Opção B — upload direto (sem Git):**
 ```powershell
@@ -36,9 +36,18 @@ node "C:\Users\sandr\OneDrive\Área de Trabalho\Clientes\Prime Higienizações\s
 npx wrangler pages deploy "C:\Users\sandr\OneDrive\Área de Trabalho\Clientes\Prime Higienizações\site\_site" --project-name prime-higienize
 ```
 
-**Domínio:** Custom domains do projeto Pages → adicionar `www.primehigienize.com.br` (e o apex) — se o
-domínio já estiver na Cloudflare, o DNS é criado sozinho; senão, CNAME `www` → `<projeto>.pages.dev`.
-A bio do Instagram ainda aponta para `www.primehigienize.com` (sem DNS). O domínio confirmado é `www.primehigienize.com.br`: trocar o link da bio.
+**Opção C — de uma sessão na nuvem (Claude Code web), sem o wrangler logado:** guardar nas variáveis do
+ambiente `CLOUDFLARE_API_TOKEN` (token de API com permissão *Cloudflare Pages: Edit*) e
+`CLOUDFLARE_ACCOUNT_ID`; o wrangler lê as duas sozinho:
+```bash
+node publicar.mjs --dominio=https://www.primehigienize.com.br
+npx --yes wrangler@4 pages deploy _site --project-name prime-higienize --branch main --commit-dirty=true
+```
+
+**Domínio:** `www.primehigienize.com.br` já está ligado ao projeto Pages e no ar (29/10/2026) — mas servindo
+o pacote de PRÉVIA (noindex, robots fechado). Para o Google indexar, o deploy precisa ser do pacote de
+produção (`--dominio=https://www.primehigienize.com.br`). Conferir no painel se o apex `primehigienize.com.br`
+redireciona para o `www`. A bio do Instagram aponta para `www.primehigienize.com` (sem `.br`) — alinhar a bio ao domínio real.
 
 `_headers` do pacote traz CSP, HSTS, X-Frame DENY, Referrer-Policy, Permissions-Policy e cache; em prévia também `X-Robots-Tag: noindex`.
 
