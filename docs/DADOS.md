@@ -19,7 +19,7 @@
 4. **Higienização de ar-condicionado** (posts de 02/09 e 10/09/2026: filtros e partes internas, fungos/bactérias, rinite/sinusite/asma, consumo de energia, preventiva antes do calor).
 5. **Impermeabilização / proteção contra líquidos** (posts 26/06 e 29/07/2026): camada protetora, líquidos ficam na superfície por mais tempo; **não significa que nunca vai manchar**; praticidade para quem tem crianças e pets.
 6. **Tratamento anti-ácaro e anti-fungo + reavivamento da cor** (relato da cliente @pkdocess: "tratado anti ácaro e anti fungo, reavivamento da cor e muito cheiroso").
-- Atendimento **em domicílio** (todos os reposts são na casa/studio do cliente). Orçamento **gratuito** (bio). Localização marcada nos posts: **Rio Grande do Sul**; DDD 51. **Cidade exata: A CONFIRMAR.**
+- Atendimento **em domicílio** (todos os reposts são na casa/studio do cliente). Orçamento **gratuito** (bio). Região de atendimento (informada pelo Guilherme em 31/10/2026): **Porto Alegre, Canoas, Alvorada, Viamão e região (RS)**; DDD 51.
 
 ## Feedbacks reais (destaque "Clientes" + post de 14/08/2026)
 - Print de WhatsApp (post 14/08/2026): "Ficou excelente" · "Os meninos muito educados e comprometido com o trabalho." · "Adorei!" · "Já estou indicando para os amigos e moradores do prédio" (17:33–17:34)
@@ -58,7 +58,6 @@
 - "Esperar as manchas aparecerem para só depois fazer a higienização pode acabar saindo caro."
 
 ## Lacunas (NÃO inventar no site)
-- Cidade/bairro e raio de atendimento (só "Rio Grande do Sul" + DDD 51)
 - Horário de atendimento · preços · tempo de secagem · produtos usados (marcas) · CNPJ · nome dos donos · e-mail · nota do Google
 - Fotos em alta da equipe (as existentes são prints de stories 640×1136 e 1179×2096)
 

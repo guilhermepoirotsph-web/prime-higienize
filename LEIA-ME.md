@@ -58,6 +58,5 @@ bate com o número real 5551994372227: quem administra o contêiner (gestor de t
 `_headers` do pacote traz CSP, HSTS, X-Frame DENY, Referrer-Policy, Permissions-Policy e cache; em prévia também `X-Robots-Tag: noindex`.
 
 ## Pendências (confirmar com o cliente)
-- Cidade/bairro e raio de atendimento (o site diz só "Rio Grande do Sul").
 - Horário de atendimento, formas de pagamento, tempo médio de secagem (não foram publicados no site).
 - Fotos em alta da equipe e dos serviços (as atuais vieram de prints de stories).
