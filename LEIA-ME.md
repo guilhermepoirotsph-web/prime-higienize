@@ -44,10 +44,16 @@ node publicar.mjs --dominio=https://www.primehigienize.com.br
 npx --yes wrangler@4 pages deploy _site --project-name prime-higienize --branch main --commit-dirty=true
 ```
 
-**Domínio:** `www.primehigienize.com.br` já está ligado ao projeto Pages e no ar (29/10/2026) — mas servindo
-o pacote de PRÉVIA (noindex, robots fechado). Para o Google indexar, o deploy precisa ser do pacote de
-produção (`--dominio=https://www.primehigienize.com.br`). Conferir no painel se o apex `primehigienize.com.br`
-redireciona para o `www`. A bio do Instagram aponta para `www.primehigienize.com` (sem `.br`) — alinhar a bio ao domínio real.
+**Domínio:** `www.primehigienize.com.br` está ligado ao projeto Pages e, desde 30/10/2026, serve o pacote de
+PRODUÇÃO (sem noindex, canonical, robots aberto, sitemap; deploy 5642475f). O DNS fica no Registro.br
+(`a.auto.dns.br`): `www` é CNAME para o Pages. O apex `primehigienize.com.br` NÃO resolve (sem registro): criar
+no Registro.br um redirecionamento do apex para `https://www.primehigienize.com.br`. A bio do Instagram aponta para
+`www.primehigienize.com` (sem `.br`) — alinhar a bio ao domínio real.
+
+**Tag do Google:** o contêiner GTM-PD6F9S38 não pertence a nenhuma das 4 contas Google logadas no Chrome do
+Guilherme. O gatilho de conversão do WhatsApp (`ferramentas/ler-gtm.mjs`) está com "contém 555194372227", que não
+bate com o número real 5551994372227: quem administra o contêiner (gestor de tráfego) precisa trocar para
+"Click URL contém wa.me" e publicar. Depois, rodar `node ferramentas/ler-gtm.mjs` para conferir.
 
 `_headers` do pacote traz CSP, HSTS, X-Frame DENY, Referrer-Policy, Permissions-Policy e cache; em prévia também `X-Robots-Tag: noindex`.
 
